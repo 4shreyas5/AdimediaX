@@ -1,4 +1,4 @@
-import brainwave from "./brainwave.svg";
+import logo1 from "./Adimediax Solutions/1.svg"
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
@@ -76,7 +76,7 @@ import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
 export {
-  brainwave,
+  logo1,
   check,
   check2,
   loading1,
