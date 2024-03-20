@@ -28,8 +28,8 @@ const Pricing = () => {
         </div>
 
         <Heading
-          tag="Get started with Brainwave"
-          title="Pay once, use forever"
+          tag="Get started with AdimediaX"
+          title="Pay once, Repeat Again"
         />
 
         <div className="relative">
