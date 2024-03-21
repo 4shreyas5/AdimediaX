@@ -11,7 +11,7 @@ const Benefits = () => {
       <div className="container relative z-2">
         <Heading
           className="md:max-w-md lg:max-w-2xl"
-          title="Grow Smarter, Not Harder with AdimediaX"
+          title="How it Works?"
         />
 
         <div className="flex flex-wrap gap-10 mb-10">

@@ -41,7 +41,7 @@ const Hero = () => {
 </div>
 
 
-          <Button href="/pricing" white>
+          <Button href="https://calendly.com/adimediax/adimediax-discovery-call" white>
             Book a Call
           </Button>
         </div>
