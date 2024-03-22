@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from 'react';
 import { brainwaveSymbol, check } from "../assets";
 import { collabApps, collabContent, collabText } from "../constants";
 import Button from "./Button";
@@ -5,27 +6,43 @@ import Section from "./Section";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
 
 const Collaboration = () => {
+  const [videoCreated, setVideoCreated] = useState(0);
+  const [views, setViews] = useState(0);
+  const [watchTime, setWatchTime] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      // Increment numbers by random amounts for demonstration
+      setVideoCreated(prev => prev + Math.floor(Math.random() * 100));
+      setViews(prev => prev + Math.floor(Math.random() * 100));
+      setWatchTime(prev => prev + Math.floor(Math.random() * 1000));
+    }, 2000); // Adjust the interval as needed
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <Section crosses>
       <div className="container lg:flex">
         <div className="max-w-[25rem]">
           <h2 className="h2 mb-4 md:mb-8">
-          HOLISTIC CONTENT APPROACH
+            HOLISTIC CONTENT APPROACH
           </h2>
 
-          <ul className="max-w-[22rem] mb-10 md:mb-14">
-            {collabContent.map((item) => (
-              <li className="mb-3 py-3" key={item.id}>
-                <div className="flex items-center">
-                  <img src={check} width={24} height={24} alt="check" />
-                  <h6 className="body-2 ml-5">{item.title}</h6>
-                </div>
-                {item.text && (
-                  <p className="body-2 mt-3 text-n-4">{item.text}</p>
-                )}
-              </li>
-            ))}
-          </ul>
+          {/* <div className="progress-container">
+            <div className="progress-item">
+              <h2>{videoCreated}+</h2>
+              <p>Video created</p>
+            </div>
+            <div className="progress-item">
+              <h2>{views}M+</h2>
+              <p>Views</p>
+            </div>
+            <div className="progress-item">
+              <h2>{watchTime}M hrs+</h2>
+              <p>Watchtime</p>
+            </div>
+          </div> */}
 
           <Button>Try it now</Button>
         </div>
