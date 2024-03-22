@@ -29,7 +29,7 @@ const Pricing = () => {
 
         <Heading
           tag="Get started with AdimediaX"
-          title="Pay once, Repeat Again"
+          title="IGNITION FUEL"
         />
 
         <div className="relative">

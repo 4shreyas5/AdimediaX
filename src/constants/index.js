@@ -135,7 +135,7 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "AdimediaX transforms your brand story into a content powerhouse with 60+ social media posts across all your channels";
 
 export const collabContent = [
   {
@@ -215,35 +215,46 @@ export const collabApps = [
 export const pricing = [
   {
     id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
+    title: "Launchpad",
+    description: " Ideal for early-stage startups seeking to establish a strong online presence.",
     price: "0",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "60+ social media posts per month",
+      "Targeted Facebook & Google Ads campaign setup (with customized content)",
+      "Basic on-page SEO optimization",
+      "Founder personal brand development consultation (FREE)",
+      "Reporting and analysis",
+      "24x7 slack support"
     ],
   },
   {
     id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
+    title: "Ascend",
+    description: "Designed for startups ready to accelerate their growth",
     price: "9.99",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
-    ],
+      "100+ social media posts per month",
+      "Optimized Facebook & Google Ads campaigns (customized content)",
+      "Comprehensive on-page & technical SEO audit",
+      "Founder personal brand content creation and social media management",
+      "Reporting and analysis",
+      "24x7 slack support"
+    ]
+      
   },
   {
     id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
+    title: "Dominate",
+    description: "For established startups poised for market leadership",
     price: null,
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "200+ social media posts per month",
+      "Advanced Facebook & Google Ads campaigns with A/B testing",
+      "Ongoing SEO monitoring and optimization",
+      "Dedicated founder personal brand management and content strategy",
+      "Reporting and analysis",
+      "24x7 slack support"
+      
     ],
   },
 ];
