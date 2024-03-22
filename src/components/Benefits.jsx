@@ -27,7 +27,7 @@ const Benefits = () => {
                 <h5 className="h5 mb-5">{item.title}</h5>
                 <p className="body-2 mb-6 text-n-3">{item.text}</p>
                 <div className="flex items-center mt-auto">
-                  <img
+                  {/* <img
                     src={item.iconUrl}
                     width={48}
                     height={48}
@@ -36,7 +36,7 @@ const Benefits = () => {
                   <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
                     Explore more
                   </p>
-                  <Arrow />
+                  <Arrow /> */}
                 </div>
               </div>
 
