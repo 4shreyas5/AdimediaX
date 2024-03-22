@@ -9,6 +9,12 @@ import grid from "./grid.png";
 import check2 from "./check-02.svg";
 import loading1 from "./loading-01.svg";
 import yourlogo from "./yourlogo.svg";
+import logo6 from "./logo6.png";
+import logo2 from "./logo2.png";
+import logo3 from "./logo3.png";
+import logo4 from "./logo4.png";
+import logo5 from "./logo5.png";
+import framer1 from "./framer1.png";
 import homeSmile from "./home-smile.svg";
 import file02 from "./file-02.svg";
 import searchMd from "./search-md.svg";
@@ -77,6 +83,12 @@ import twitter from "./socials/twitter.svg";
 
 export {
   logo1,
+  logo2,
+  logo3,
+  logo4,
+  logo5,
+  logo6,
+  framer1,
   check,
   check2,
   loading1,

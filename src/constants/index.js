@@ -34,6 +34,13 @@ import {
   telegram,
   twitter,
   yourlogo,
+  logo1,
+  logo2,
+  logo3,
+  logo4,
+  logo5,
+  logo6,
+  framer1
 } from "../assets";
 
 export const navigation = [
@@ -75,7 +82,7 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
+export const companyLogos = [logo2, logo3, logo4, logo5, logo6];
 
 export const brainwaveServices = [
   "Photo generating",
