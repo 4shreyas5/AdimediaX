@@ -17,7 +17,7 @@ const Roadmap = () => (
 
           return (
             <div
-              className={`md:flex even:md:translate-y-[7rem] p-0.25 rounded-[2.5rem] ${
+              className={`p-0.25 rounded-[2.5rem] ${
                 item.colorful ? "bg-conic-gradient" : "bg-n-6"
               }`}
               key={item.id}
@@ -69,7 +69,7 @@ const Roadmap = () => (
       </div>
 
       <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
-        <Button href="/roadmap">Our roadmap</Button>
+        <Button href="https://calendly.com/adimediax/adimediax-discovery-call">Book A Call</Button>
       </div>
     </div>
   </Section>

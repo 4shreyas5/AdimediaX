@@ -29,7 +29,7 @@ const PricingList = () => {
 
           <Button
             className="w-full my-6  "
-            href={item.price ? "/pricing" : "mailto:contact@jsmastery.pro"}
+            href="https://calendly.com/adimediax/adimediax-discovery-call"
             white={!!item.price}
           >
            Book A Call
