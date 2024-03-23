@@ -8,7 +8,6 @@ import { useRef } from "react";
 import Generating from "./Generating";
 import Notification from "./Notification";
 import CompanyLogos from "./CompanyLogos";
-import {TextRevealCard} from "./Tag";
 
 const Hero = () => {
   const parallaxRef = useRef(null);
@@ -37,7 +36,6 @@ const Hero = () => {
             </span>
           </h1>
           <div className="hidden lg:block my-10 mx-44 max-w-xl lg:max-w-4xl xl:max-w-6xl">
-    <TextRevealCard text={"You Know the Business"} revealText={"I Know The Chemistry"} />
 </div>
 
 
