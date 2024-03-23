@@ -140,16 +140,16 @@ export const collabText =
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "5500+ Video created",
+   
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "311M+ Views",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "1M hrs+ Watchtime",
   },
 ];
 

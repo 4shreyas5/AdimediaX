@@ -39,12 +39,20 @@ const Pricing = () => {
         </div>
 
         <div className="flex justify-center mt-10">
-          <a
-            className="text-xs font-code font-bold tracking-wider uppercase border-b"
-            href="/pricing"
+          <p
+            className="text-center uppercase"
           >
-            See the full details
-          </a>
+{/* <p><strong>All Packages Include:</strong></p>
+<ul>
+  <li>Dedicated account manager</li>
+  <li>Data-driven reporting with overcommunication of results</li>
+  <li>Monthly / weekly strategy meetings</li>
+  <li>Access to our team of social media experts, content creators, and SEO specialists</li>
+</ul>
+<p><em>“You can create your own customized package”</em></p> */}
+
+
+          </p>
         </div>
       </div>
     </Section>

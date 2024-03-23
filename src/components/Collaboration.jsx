@@ -29,22 +29,21 @@ const Collaboration = () => {
             HOLISTIC CONTENT APPROACH
           </h2>
 
-          {/* <div className="progress-container">
-            <div className="progress-item">
-              <h2>{videoCreated}+</h2>
-              <p>Video created</p>
-            </div>
-            <div className="progress-item">
-              <h2>{views}M+</h2>
-              <p>Views</p>
-            </div>
-            <div className="progress-item">
-              <h2>{watchTime}M hrs+</h2>
-              <p>Watchtime</p>
-            </div>
-          </div> */}
+          <ul className="max-w-[22rem] mb-10 md:mb-14">
+            {collabContent.map((item) => (
+              <li className="mb-3 py-3" key={item.id}>
+                <div className="flex items-center">
+                  <img src={check} width={24} height={24} alt="check" />
+                  <h6 className="body-2 ml-5">{item.title}</h6>
+                </div>
+                {item.text && (
+                  <p className="body-2 mt-3 text-n-4">{item.text}</p>
+                )}
+              </li>
+            ))}
+          </ul>
 
-          <Button>Try it now</Button>
+          <Button className="mt-28">Try it now</Button>
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">
