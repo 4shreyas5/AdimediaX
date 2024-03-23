@@ -331,16 +331,5 @@ export const socials = [
     iconUrl: instagram,
     url: "#",
   },
-  {
-    id: "3",
-    title: "Telegram",
-    iconUrl: telegram,
-    url: "#",
-  },
-  {
-    id: "4",
-    title: "Facebook",
-    iconUrl: facebook,
-    url: "#",
-  },
+
 ];
