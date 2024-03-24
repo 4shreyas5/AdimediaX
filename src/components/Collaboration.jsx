@@ -10,16 +10,6 @@ const Collaboration = () => {
   const [views, setViews] = useState(0);
   const [watchTime, setWatchTime] = useState(0);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      // Increment numbers by random amounts for demonstration
-      setVideoCreated(prev => prev + Math.floor(Math.random() * 100));
-      setViews(prev => prev + Math.floor(Math.random() * 100));
-      setWatchTime(prev => prev + Math.floor(Math.random() * 1000));
-    }, 2000); // Adjust the interval as needed
-
-    return () => clearInterval(interval);
-  }, []);
 
   return (
     <Section crosses>
@@ -29,9 +19,9 @@ const Collaboration = () => {
             HOLISTIC CONTENT APPROACH
           </h2>
 
-          <ul className="max-w-[22rem] mb-10 md:mb-14">
+          <ul className=" max-w-[22rem] mb-10 md:mb-14">
             {collabContent.map((item) => (
-              <li className="mb-3 py-3" key={item.id}>
+              <li className="pb-5 py-3" key={item.id}>
                 <div className="flex items-center">
                   <img src={check} width={24} height={24} alt="check" />
                   <h6 className="body-2 ml-5">{item.title}</h6>
@@ -59,7 +49,7 @@ const Collaboration = () => {
                     src={brainwaveSymbol}
                     width={48}
                     height={48}
-                    alt="brainwave"
+                    alt="adimediax"
                   />
                 </div>
               </div>
