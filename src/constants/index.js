@@ -218,7 +218,7 @@ export const pricing = [
     id: "0",
     title: "Launchpad",
     description: " Ideal for early-stage startups seeking to establish a strong online presence.",
-    price: "0",
+    price: null,
     features: [
       "60+ social media posts per month",
       "Targeted Facebook & Google Ads campaign setup (with customized content)",
