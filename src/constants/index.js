@@ -40,7 +40,10 @@ import {
   logo4,
   logo5,
   logo6,
-  framer1
+  framer1,
+  tiktok,
+  ig,
+  linkedinv
 } from "../assets";
 
 export const navigation = [
@@ -185,22 +188,22 @@ export const collabApps = [
   },
   {
     id: "4",
-    title: "Photoshop",
-    icon: photoshop,
+    title: "Instagram",
+    icon: ig,
     width: 34,
     height: 34,
   },
   {
     id: "5",
-    title: "Protopie",
-    icon: protopie,
+    title: "LinkedIn",
+    icon: linkedinv,
     width: 34,
     height: 34,
   },
   {
     id: "6",
-    title: "Framer",
-    icon: framer,
+    title: "TikTok",
+    icon: tiktok,
     width: 26,
     height: 34,
   },

@@ -2,6 +2,7 @@ import logo1 from "./Adimediax Solutions/1.svg"
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
+import adi from "./Adimediax Solutions/2.svg"
 import play from "./play.svg";
 import gradient from "./gradient.png";
 import smallSphere from "./4-small.png";
@@ -14,6 +15,9 @@ import logo2 from "./logo2.png";
 import logo3 from "./logo3.png";
 import logo4 from "./logo4.png";
 import logo5 from "./logo5.png";
+import ig from "./ig.png";
+import linkedinv from "./linkedinv.png";
+import tiktok from "./tiktok.png";
 import framer1 from "./framer1.png";
 import homeSmile from "./home-smile.svg";
 import file02 from "./file-02.svg";
@@ -88,6 +92,10 @@ export {
   logo4,
   logo5,
   logo6,
+  ig,
+  tiktok,
+  linkedinv,
+  adi,
   framer1,
   check,
   check2,

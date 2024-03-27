@@ -1,15 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { brainwaveSymbol, check } from "../assets";
+import {adi} from "../assets"
 import { collabApps, collabContent, collabText } from "../constants";
 import Button from "./Button";
 import Section from "./Section";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
 
 const Collaboration = () => {
-  const [videoCreated, setVideoCreated] = useState(0);
-  const [views, setViews] = useState(0);
-  const [watchTime, setWatchTime] = useState(0);
-
 
   return (
     <Section crosses>
@@ -33,7 +30,7 @@ const Collaboration = () => {
             ))}
           </ul>
 
-          <Button className="mt-28">Try it now</Button>
+          <Button href="https://calendly.com/adimediax/adimediax-discovery-call" className="mt-28">Try it now</Button>
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">
@@ -46,7 +43,7 @@ const Collaboration = () => {
               <div className="w-[6rem] aspect-square m-auto p-[0.2rem] bg-conic-gradient rounded-full">
                 <div className="flex items-center justify-center w-full h-full bg-n-8 rounded-full">
                   <img
-                    src={brainwaveSymbol}
+                    src={adi}
                     width={48}
                     height={48}
                     alt="adimediax"
