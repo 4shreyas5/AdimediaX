@@ -85,7 +85,34 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [logo2, logo3, logo4, logo5, logo6];
+export const companyLogos = [
+  { 
+    image: logo2,
+    index: "0",
+    valuation: "12B"
+  },
+  { 
+    image: logo6,
+    index: "1",
+    valuation: "3.1B"
+  },
+  { 
+    image: logo4,
+    index: "2",
+    valuation: "97M"
+  },
+  { 
+    image: logo3,
+    index: "3",
+    valuation: "500M"
+  },
+  { 
+    image: logo5,
+    index: "4",
+    valuation: "17.6M"
+  }
+];
+
 
 export const brainwaveServices = [
   "Photo generating",
