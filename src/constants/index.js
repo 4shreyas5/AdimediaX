@@ -295,7 +295,7 @@ export const benefits = [
     id: "0",
     title: "Content Creation Powerhouse",
     text: "We collaborate with you to understand your brand voice and target audience. Our team crafts a captivating content calendar for key social media platforms. Engaging texts, posts, and videos fuel your online presence and establish thought leadership through content.",
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    backgroundUrl: "./src/assets/benefits/card-1.png",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
