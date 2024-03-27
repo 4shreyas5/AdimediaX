@@ -49,7 +49,7 @@ import {
 export const navigation = [
   {
     id: "0",
-    title: "Features",
+    title: "How it works?",
     url: "#features",
   },
   {
@@ -59,26 +59,26 @@ export const navigation = [
   },
   {
     id: "2",
-    title: "How to use",
+    title: "Your Brand's Voice",
     url: "#how-to-use",
   },
   {
     id: "3",
-    title: "Roadmap",
+    title: "Testimonials",
     url: "#roadmap",
   },
-  {
-    id: "4",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
-  },
-  {
-    id: "5",
-    title: "Sign in",
-    url: "#login",
-    onlyMobile: true,
-  },
+  // {
+  //   id: "4",
+  //   title: "New account",
+  //   url: "#signup",
+  //   onlyMobile: true,
+  // },
+  // {
+  //   id: "5",
+  //   title: "Sign in",
+  //   url: "#login",
+  //   onlyMobile: true,
+  // },
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
@@ -133,7 +133,7 @@ export const roadmap = [
     id: "0",
     title: "You guys have an amazing editing team. Good Work.",
     text: "Team Deel",
-    date: "May 2023",
+    date: "October 2023",
     status: "done",
     imageUrl: logo2,
     colorful: true,
@@ -142,7 +142,7 @@ export const roadmap = [
     id: "1",
     title: "Great Results on the FB Ads and SEO.",
     text: "Team BILT",
-    date: "May 2023",
+    date: "January 2024",
     status: "done",
     imageUrl: logo6,
     colorful: true,
