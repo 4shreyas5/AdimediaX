@@ -4,13 +4,13 @@ const CompanyLogos = ({ className }) => {
   const handleMouseEnter = (event, valuation) => {
     const overlay = event.currentTarget.querySelector('.valuation-overlay');
     overlay.textContent = `Valuation: $${valuation}`;
-    overlay.classList.add('opacity-100', 'scale-100'); // Add Tailwind classes for hover animation
+    overlay.classList.add('opacity-100', 'scale-100'); 
   };
 
   const handleMouseLeave = (event) => {
     const overlay = event.currentTarget.querySelector('.valuation-overlay');
     overlay.textContent = ''; // Clear valuation text
-    overlay.classList.remove('opacity-100', 'scale-100'); // Remove Tailwind classes for hover animation
+    overlay.classList.remove('opacity-100', 'scale-100'); 
   };
 
   return (
