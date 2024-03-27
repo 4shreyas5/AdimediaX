@@ -104,20 +104,20 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
+    title: "You guys have an amazing editing team. Good Work.",
+    text: "Team Deel",
     date: "May 2023",
     status: "done",
-    imageUrl: roadmap1,
+    imageUrl: logo2,
     colorful: true,
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
+    title: "Great Results on the FB Ads and SEO.",
+    text: "Team BILT",
     date: "May 2023",
-    status: "progress",
-    imageUrl: roadmap2,
+    status: "done",
+    imageUrl: logo6,
     colorful: true,
   },
   // {
