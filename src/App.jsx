@@ -7,11 +7,13 @@ import Hero from "./components/Hero";
 import Pricing from "./components/Pricing";
 import Roadmap from "./components/Roadmap";
 import Services from "./components/Services";
+import Podcast from "./Podcast";
 
 const App = () => {
   return (
     <>
-      <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
+    <Podcast/>
+      {/* <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
         <Header />
         <Hero />
         <Benefits />
@@ -22,7 +24,7 @@ const App = () => {
         <Footer />
       </div>
 
-      <ButtonGradient />
+      <ButtonGradient /> */}
     </>
   );
 };

@@ -1,10 +1,10 @@
 import Section from "./Section";
 import { smallSphere, stars } from "../assets";
 import Heading from "./Heading";
-import PricingList from "./PricingList";
+import PricingList2 from "./PricingList2";
 import { LeftLine, RightLine } from "./design/Pricing";
 
-const Pricing = () => {
+const Pricing2 = () => {
   return (
     <Section className="overflow-hidden" id="pricing">
       <div className="container relative z-2">
@@ -28,12 +28,12 @@ const Pricing = () => {
         </div>
 
         <Heading
-          tag="Get started with AdimediaX"
-          title="IGNITION FUEL"
+          tag="Menu Items"
+          title="Retainers"
         />
 
         <div className="relative">
-          <PricingList />
+          <PricingList2 />
           <LeftLine />
           <RightLine />
         </div>
@@ -44,4 +44,4 @@ const Pricing = () => {
   );
 };
 
-export default Pricing;
+export default Pricing2;

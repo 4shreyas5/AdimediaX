@@ -9,7 +9,7 @@ const CompanyLogos = ({ className }) => {
 
   const handleMouseLeave = (event) => {
     const overlay = event.currentTarget.querySelector('.valuation-overlay');
-    overlay.textContent = ''; // Clear valuation text
+    overlay.textContent = ''; 
     overlay.classList.remove('opacity-100', 'scale-100'); 
   };
 
@@ -34,7 +34,7 @@ const CompanyLogos = ({ className }) => {
               className="logo-image hover:scale-110 transition-transform transform-gpu"
             />
             <div className="valuation-overlay absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-black bg-opacity-80 text-white p-3 rounded-md opacity-0 scale-0 transition-all duration-300">
-              {/* Valuation overlay */}
+            
             </div>
           </li>
         ))}

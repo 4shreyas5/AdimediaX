@@ -6,7 +6,7 @@ import { ScrollParallax } from "react-just-parallax";
 import { useRef } from "react";
 import CompanyLogos from "./CompanyLogos";
 
-const Hero = () => {
+const Hero2 = () => {
   const parallaxRef = useRef(null);
 
   return (
@@ -20,7 +20,8 @@ const Hero = () => {
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6">
-            Ignite Your Startup's Growth {` `}
+          Podcasting Solutions for 
+Creators and Companies {` `}
             <span className="inline-block relative">
               AdimediaX{" "}
               <img
@@ -33,8 +34,7 @@ const Hero = () => {
             </span>
           </h1>
           <div className="my-24 text-xl">
-          Empowering new-age startups to amplify their brand voice through compelling content and drive high-quality leads through data-centric performance marketing.
-          At AdimediaX, we specialize in crafting tailored strategies that resonate with your audience and propel your growth. 
+          We help creators and companies to start and grow podcasts to enhance their online reach, attract high-quality leads, and boost revenue. Whether you're launching a new podcast or optimizing an existing one, we're here to help.
           <br/> <div>Let's collaborate to elevate your brand and drive impactful results. </div>
           <br/><div className="text-3xl text-[#A055FF]">Ready to stand out in the digital landscape? </div>
           </div>
@@ -59,4 +59,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Hero2;

@@ -6,7 +6,7 @@ import {
 
 import Generating from "./Generating";
 
-const Services = () => {
+const Services2 = () => {
   return (
     <Section id="how-to-use">
       <div className="container">
@@ -52,4 +52,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Services2;

@@ -8,45 +8,29 @@ import {
   disc02,
   discord,
   discordBlack,
-  facebook,
   figma,
-  file02,
-  framer,
   benefitCard1,
   benefitCard2,
   benefitCard3,
   benefitCard4,
   benefitCard5,
   benefitCard6,
-  homeSmile,
   instagram,
   notification2,
   notification3,
   notification4,
   notion,
-  photoshop,
-  plusSquare,
-  protopie,
   raindrop,
   recording01,
   recording03,
-  roadmap1,
-  roadmap2,
-  roadmap3,
-  roadmap4,
-  searchMd,
   slack,
   sliders04,
-  telegram,
   twitter,
-  yourlogo,
-  logo1,
   logo2,
   logo3,
   logo4,
   logo5,
   logo6,
-  framer1,
   tiktok,
   ig,
   linkedinv
@@ -73,21 +57,7 @@ export const navigation = [
     title: "Testimonials",
     url: "#roadmap",
   },
-  // {
-  //   id: "4",
-  //   title: "New account",
-  //   url: "#signup",
-  //   onlyMobile: true,
-  // },
-  // {
-  //   id: "5",
-  //   title: "Sign in",
-  //   url: "#login",
-  //   onlyMobile: true,
-  // },
 ];
-
-export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
@@ -153,26 +123,13 @@ export const roadmap = [
     imageUrl: logo6,
     colorful: true,
   },
-  // {
-  //   id: "2",
-  //   title: "Chatbot customization",
-  //   text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-  //   date: "May 2023",
-  //   status: "done",
-  //   imageUrl: roadmap3,
-  // },
-  // {
-  //   id: "3",
-  //   title: "Integration with APIs",
-  //   text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-  //   date: "May 2023",
-  //   status: "progress",
-  //   imageUrl: roadmap4,
-  // },
 ];
 
 export const collabText =
   "AdimediaX transforms your brand story into a content powerhouse with 60+ social media posts across all your channels";
+  
+export const collabText2 =
+"Enhance your thought leadership by transforming four monthly conversations into over 60 pieces of content shared across all social channels, requiring minimal time commitment.";
 
 export const collabContent = [
   {
@@ -187,6 +144,22 @@ export const collabContent = [
   {
     id: "2",
     title: "1M hrs+ Watchtime",
+  },
+];
+
+export const collabContent2 = [
+  {
+    id: "0",
+    title: "2345+ Videos Created",
+   
+  },
+  {
+    id: "1",
+    title: "321M+ Views",
+  },
+  {
+    id: "2",
+    title: "1M+ Hours Watchtime",
   },
 ];
 
@@ -296,6 +269,55 @@ export const pricing = [
   },
 ];
 
+export const pricing2 = [
+  {
+    id: "0",
+    title: "Fuel",
+    description: "Ideal for established podcasts that are already produced.",
+    price: null,
+    features: [
+      "30 shorts/month",
+      "Posted on Instagram, YouTube, LinkedIn, Facebook & TikTok",
+      "Repurposed content",
+      "Custom scripted content",
+      "Custom animations",
+      "Reporting & Analytics",
+      "24x7 slack support"
+    ],
+  },
+  {
+    id: "1",
+    title: "Launchpad",
+    description: "Podcasts built from scratch for companies and creators",
+    price: "9.99",
+    features: [
+      "4 podcasts/month",
+      "Guest sourcing & ideation",
+      "Podcast brand & website creation",
+      "Custom shorts",
+      "Custom animations",
+      "Reporting & Analytics",
+      "24x7 slack support"
+    ]
+      
+  },
+  {
+    id: "2",
+    title: "Ignition",
+    description: "Ideal for podcasts seeking a complete solution model",
+    price: null ,
+    features: [
+      "Podcast production",
+      "Podcast promotion via theme pages, slack, reddit & newsletters",
+      "4 Long-form clips for YouTube/month",
+      "30-60 shorts/month",
+      "Custom animations",
+      "Reporting & Analytics",
+      "24x7 slack support"
+    ]
+  },
+];
+
 export const benefits = [
   {
     id: "0",
@@ -346,6 +368,34 @@ export const benefits = [
     backgroundUrl: `${benefitCard6}`,
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
+  },
+];
+export const benefits2 = [
+  {
+    id: "0",
+    title: "Content Creation Powerhouse",
+    text: "1 hour of recording a week turns into…",
+    backgroundUrl: `${benefitCard1}`,
+    iconUrl: benefitIcon1,
+    imageUrl: benefitImage2,
+  },
+  {
+    id: "1",
+    title: "Targeted Audience Growth",
+    text: "A Podcast featured on Top Streaming Platforms",
+    backgroundUrl:`${benefitCard2}`,
+    iconUrl: benefitIcon2,
+    imageUrl: benefitImage2,
+    light: true,
+  },
+  {
+    id: "2",
+    title: "Building Your Founder's Brand",
+    text: "Repurposed into: 2 Youtube Videos 60 Shorts for Instagram and Tiktok Plus 2 SEO Enhanced Articles",
+    backgroundUrl: `${benefitCard3}`,
+    iconUrl: benefitIcon4,
+    imageUrl: benefitImage2,
+    light: true,
   },
 ];
 
