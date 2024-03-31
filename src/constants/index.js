@@ -158,6 +158,26 @@ export const roadmap = [
     colorful: true,
   },
 ];
+export const roadmap2 = [
+  {
+    id: "0",
+    title: "You Guys Make Stunning Visuals. Kudos To The Team. ",
+    text: "Our Future Pod",
+    date: "August 2023",
+    status: "done",
+    imageUrl: plogo1,
+    colorful: true,
+  },
+  {
+    id: "1",
+    title: "The Shorts are performing great, amazing work.",
+    text: "RedHanded The Pod",
+    date: "January 2024",
+    status: "done",
+    imageUrl: plogo2,
+    colorful: true,
+  },
+];
 
 export const collabText =
   "AdimediaX transforms your brand story into a content powerhouse with 60+ social media posts across all your channels";
@@ -407,16 +427,16 @@ export const benefits = [
 export const benefits2 = [
   {
     id: "0",
-    title: "Content Creation Powerhouse",
-    text: "1 hour of recording a week turns into…",
+    title: "Recording Your Podcast",
+    text: "Start by dedicating just 1 hour a week to recording your podcast. This is a manageable amount of time that can be easily incorporated into your schedule. Then It will be posted on the top streaming platforms.",
     backgroundUrl: `${benefitCard1}`,
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Targeted Audience Growth",
-    text: "A Podcast featured on Top Streaming Platforms",
+    title: "Repurpose Your Content",
+    text: "Visual Content: Turn your podcast into 2 engaging Youtube videos. Social Media Engagement: Extract 60 short snippets for platforms like Instagram and Tiktok to grab viewers' attention. Written Content: Create 2 SEO-optimized articles based on your podcast topics to improve discoverability in search engines.",
     backgroundUrl:`${benefitCard2}`,
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -424,8 +444,8 @@ export const benefits2 = [
   },
   {
     id: "2",
-    title: "Building Your Founder's Brand",
-    text: "Repurposed into: 2 Youtube Videos 60 Shorts for Instagram and Tiktok Plus 2 SEO Enhanced Articles",
+    title: "Building Your Audience",
+    text: "By consistently recording and repurposing your content across various platforms, you'll establish a strong presence and attract a loyal audience for your podcast. This multi-pronged approach ensures you're reaching listeners wherever they consume their content. With dedication and strategic repurposing, your podcast can evolve from a one-hour recording to a powerful content powerhouse.",
     backgroundUrl: `${benefitCard3}`,
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,

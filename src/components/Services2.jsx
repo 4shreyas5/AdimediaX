@@ -12,7 +12,7 @@ const Services2 = () => {
       <div className="container">
         <Heading
           title="Your Brand’s Voice"
-          text="AdimediaX unlocks the potential of Your StartUp"
+          text="AdimediaX unlocks the potential of Your Podcast"
         />
 
         <div className="relative">
