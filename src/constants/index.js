@@ -31,6 +31,11 @@ import {
   logo4,
   logo5,
   logo6,
+  plogo1,
+  plogo2,
+  plogo3,
+  plogo4,
+  plogo5,
   tiktok,
   ig,
   linkedinv
@@ -87,6 +92,35 @@ export const companyLogos = [
     index: "4",
     valuation: "17.6M"
   }
+];
+
+export const companyLogos2 = [
+  { 
+    image: plogo5,
+    index: "0",
+    valuation: "1.3M"
+  },
+  { 
+    image: plogo2,
+    index: "1",
+    valuation: "137k"
+  },
+  { 
+    image: plogo3,
+    index: "2",
+    valuation: "71.4k"
+  },
+  { 
+    image: plogo1,
+    index: "3",
+    valuation: "25k"
+  },
+  { 
+    image: plogo4,
+    index: "4",
+    valuation: "13.3k"
+  },
+
 ];
 
 

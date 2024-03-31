@@ -1,4 +1,9 @@
 import logo1 from "./Adimediax Solutions/1.svg"
+import plogo1 from "./Adimediax Solutions/p1.png"
+import plogo2 from "./Adimediax Solutions/p2.png"
+import plogo3 from "./Adimediax Solutions/p3.png"
+import plogo4 from "./Adimediax Solutions/p4.png"
+import plogo5 from "./Adimediax Solutions/p5.png"
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
@@ -92,6 +97,11 @@ export {
   logo4,
   logo5,
   logo6,
+  plogo1,
+  plogo2,
+  plogo3,
+  plogo4,
+  plogo5,
   ig,
   tiktok,
   linkedinv,

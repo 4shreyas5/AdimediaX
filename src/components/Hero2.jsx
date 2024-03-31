@@ -4,7 +4,7 @@ import Section from "./Section";
 import { BackgroundCircles, BottomLine } from "./design/Hero";
 import { ScrollParallax } from "react-just-parallax";
 import { useRef } from "react";
-import CompanyLogos from "./CompanyLogos";
+import CompanyLogos2 from "./CompanyLogos2";
 
 const Hero2 = () => {
   const parallaxRef = useRef(null);
@@ -51,7 +51,7 @@ Creators and Companies {` `}
           </ScrollParallax>
      
 
-        <CompanyLogos className="relative z-10 mt-20 lg:block" />
+        <CompanyLogos2 className="relative z-10 mt-20 lg:block" />
       </div>
 
       <BottomLine />
