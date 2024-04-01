@@ -62,6 +62,11 @@ export const navigation = [
     title: "Testimonials",
     url: "#roadmap",
   },
+  {
+    id: "4",
+    title: "Podcast",
+    url: "#podcast",
+  },
 ];
 
 export const notificationImages = [notification4, notification3, notification2];
