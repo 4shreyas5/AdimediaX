@@ -127,6 +127,34 @@ export const companyLogos2 = [
   },
 
 ];
+export const companyLogos3 = [
+  { 
+    image: plogo5,
+    index: "0",
+    valuation: "1.3M"
+  },
+  { 
+    image: plogo2,
+    index: "1",
+    valuation: "137k"
+  },
+  { 
+    image: plogo3,
+    index: "2",
+    valuation: "71.4k"
+  },
+  { 
+    image: plogo1,
+    index: "3",
+    valuation: "25k"
+  },
+  { 
+    image: plogo4,
+    index: "4",
+    valuation: "13.3k"
+  },
+
+];
 
 
 export const brainwaveServices = [
@@ -184,10 +212,34 @@ export const roadmap2 = [
   },
 ];
 
+export const roadmap3 = [
+  {
+    id: "0",
+    title: "You Guys Make Stunning Visuals. Kudos To The Team. ",
+    text: "Our Future Pod",
+    date: "August 2023",
+    status: "done",
+    imageUrl: plogo1,
+    colorful: true,
+  },
+  {
+    id: "1",
+    title: "The Shorts are performing great, amazing work.",
+    text: "RedHanded The Pod",
+    date: "January 2024",
+    status: "done",
+    imageUrl: plogo2,
+    colorful: true,
+  },
+];
+
 export const collabText =
   "AdimediaX transforms your brand story into a content powerhouse with 60+ social media posts across all your channels";
   
 export const collabText2 =
+"Enhance your thought leadership by transforming four monthly conversations into over 60 pieces of content shared across all social channels, requiring minimal time commitment.";
+
+export const collabText3 =
 "Enhance your thought leadership by transforming four monthly conversations into over 60 pieces of content shared across all social channels, requiring minimal time commitment.";
 
 export const collabContent = [
@@ -222,6 +274,21 @@ export const collabContent2 = [
   },
 ];
 
+export const collabContent3 = [
+  {
+    id: "0",
+    title: "2345+ Videos Created",
+   
+  },
+  {
+    id: "1",
+    title: "321M+ Views",
+  },
+  {
+    id: "2",
+    title: "1M+ Hours Watchtime",
+  },
+];
 export const collabApps = [
   {
     id: "0",
@@ -376,6 +443,56 @@ export const pricing2 = [
     ]
   },
 ];
+
+export const pricing3 = [
+  {
+    id: "0",
+    title: "Fuel",
+    description: "Ideal for established podcasts that are already produced.",
+    price: null,
+    features: [
+      "30 shorts/month",
+      "Posted on Instagram, YouTube, LinkedIn, Facebook & TikTok",
+      "Repurposed content",
+      "Custom scripted content",
+      "Custom animations",
+      "Reporting & Analytics",
+      "24x7 slack support"
+    ],
+  },
+  {
+    id: "1",
+    title: "Launchpad",
+    description: "Podcasts built from scratch for companies and creators",
+    price: "9.99",
+    features: [
+      "4 podcasts/month",
+      "Guest sourcing & ideation",
+      "Podcast brand & website creation",
+      "Custom shorts",
+      "Custom animations",
+      "Reporting & Analytics",
+      "24x7 slack support"
+    ]
+      
+  },
+  {
+    id: "2",
+    title: "Ignition",
+    description: "Ideal for podcasts seeking a complete solution model",
+    price: null ,
+    features: [
+      "Podcast production",
+      "Podcast promotion via theme pages, slack, reddit & newsletters",
+      "4 Long-form clips for YouTube/month",
+      "30-60 shorts/month",
+      "Custom animations",
+      "Reporting & Analytics",
+      "24x7 slack support"
+    ]
+  },
+];
+
 
 export const benefits = [
   {
