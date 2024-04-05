@@ -4,6 +4,7 @@ import {
   benefitIcon3,
   benefitIcon4,
   benefitImage2,
+  c1,c2,c3,c4,
   chromecast,
   disc02,
   discord,
@@ -129,31 +130,25 @@ export const companyLogos2 = [
 ];
 export const companyLogos3 = [
   { 
-    image: plogo5,
+    image: c1,
     index: "0",
-    valuation: "1.3M"
+    valuation: "809k"
   },
   { 
-    image: plogo2,
+    image: c2,
     index: "1",
-    valuation: "137k"
+    valuation: "3.1B"
   },
   { 
-    image: plogo3,
+    image: c3,
     index: "2",
-    valuation: "71.4k"
+    valuation: "97M"
   },
   { 
-    image: plogo1,
+    image: c4,
     index: "3",
-    valuation: "25k"
+    valuation: "217k"
   },
-  { 
-    image: plogo4,
-    index: "4",
-    valuation: "13.3k"
-  },
-
 ];
 
 
@@ -215,20 +210,20 @@ export const roadmap2 = [
 export const roadmap3 = [
   {
     id: "0",
-    title: "You Guys Make Stunning Visuals. Kudos To The Team. ",
-    text: "Our Future Pod",
+    title: "Awesome Work Guys!",
+    text: "@amzfbacoachmike(217k) ",
     date: "August 2023",
     status: "done",
-    imageUrl: plogo1,
+    imageUrl: c4,
     colorful: true,
   },
   {
     id: "1",
-    title: "The Shorts are performing great, amazing work.",
-    text: "RedHanded The Pod",
+    title: "Your AI Content system is amazing, I can’t even differentiate it from my real voice. hahaha!",
+    text: "@kekoamac (809k)",
     date: "January 2024",
     status: "done",
-    imageUrl: plogo2,
+    imageUrl: c1,
     colorful: true,
   },
 ];
@@ -447,48 +442,53 @@ export const pricing2 = [
 export const pricing3 = [
   {
     id: "0",
-    title: "Fuel",
+    title: "Growth Pro",
     description: "Ideal for established podcasts that are already produced.",
     price: null,
     features: [
-      "30 shorts/month",
-      "Posted on Instagram, YouTube, LinkedIn, Facebook & TikTok",
-      "Repurposed content",
-      "Custom scripted content",
-      "Custom animations",
-      "Reporting & Analytics",
-      "24x7 slack support"
+      "Growth Systems ",
+      "Content Systems (AI, Promotional, Growth, Ads, VSL)",
+      "Copywriting (Scripts, Ads, Visuals)",
+      "Appointment Setting Systems",
+      "Experienced Closers",
+      "Cold and Internal Outreach Systems ",
+      "SAAS Systems (Course Management, Landing Page) ",
+      "Social Media Management"
     ],
   },
   {
     id: "1",
-    title: "Launchpad",
+    title: "Course Pro",
     description: "Podcasts built from scratch for companies and creators",
     price: "9.99",
     features: [
-      "4 podcasts/month",
-      "Guest sourcing & ideation",
-      "Podcast brand & website creation",
-      "Custom shorts",
-      "Custom animations",
-      "Reporting & Analytics",
-      "24x7 slack support"
+      "Course Creation (Structure, Scripts, Editing)",
+      "Content Systems (AI, Promotional, Ads)",
+      "VSL Creation",
+      "Copywriting (Scripts, Ads, Visuals)",
+      "Appointment Setting",
+      "Experienced Closers",
+      "AI Sales",
+      "Saas(Management Systems)",
+      "Social Media Management"
     ]
       
   },
   {
     id: "2",
-    title: "Ignition",
+    title: "Branding Pro",
     description: "Ideal for podcasts seeking a complete solution model",
     price: null ,
     features: [
-      "Podcast production",
-      "Podcast promotion via theme pages, slack, reddit & newsletters",
-      "4 Long-form clips for YouTube/month",
-      "30-60 shorts/month",
-      "Custom animations",
-      "Reporting & Analytics",
-      "24x7 slack support"
+      "FB Ads",
+      "Youtube Ads",
+      "Linkedin Ads",
+      "Content (Promotional, VSL, Ads)",
+      "SEO",
+      "Marketing Management Saas",
+      "Social Media Management",
+      "Content and Engagement Plan",
+      "Rebranding(If Needed)"
     ]
   },
 ];
@@ -572,6 +572,58 @@ export const benefits2 = [
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
     light: true,
+  },
+];
+export const benefits3 = [
+  {
+    id: "0",
+    title: "Content Systems",
+    text: "We have one of the best teams for content, from Scripting, Visualization to Editing. Our Aim is to Provide Value Via Content. Our Clients have achieved Organic Growth just from our Viral and Value Providing Content. We also leverage AI to automate major sections of content if you don’t wanna sit and read scripts.Reels, Shorts, VSL, Carousel, Infographics, Twitter Style Posts and Whatever the heck you need!",
+    backgroundUrl: `${benefitCard1}`,
+    iconUrl: benefitIcon1,
+    imageUrl: benefitImage2,
+  },
+  {
+    id: "1",
+    title: "Sales Systems",
+    text: "You get access to one of the best appointment setting teams out there trained by NAS Academy and Frank Setting to book the maximum number of calls via tested Scripts. You also get access to our team of highly experienced closers with a closing rate of 40-60%. A dedicated team for cold outreach, to book calls internally converting cold and warm leads. Sending more than 500 dms/day. And finally you can leverage our AI Sales Automation System to generate organic leads via viral content produced by the AdimediaX team.",
+    backgroundUrl:`${benefitCard2}`,
+    iconUrl: benefitIcon2,
+    imageUrl: benefitImage2,
+    light: true,
+  },
+  {
+    id: "2",
+    title: "Targeted Growth Systems",
+    text: "Targeted growth mainly via shoutouts, Focusing on followers mainly from 1st World Countries who have the buying power for high ticket courses.Tested content for maximum results.Customized content for Personal Brands. We have partnered up with Pages like @entrepreneur (4.5M) @entrepreneurshipquote (2.7M) @businessgrowthmentor (2.7M) @thinkingmindspage(7.5M) etc and 100+ accounts We also have a dedicated ADS and SEO team, for Facebook Ads, Google Ads, Linkedin Ads etc",
+    backgroundUrl: `${benefitCard3}`,
+    iconUrl: benefitIcon4,
+    imageUrl: benefitImage2,
+    light: true,
+  },
+  {
+    id: "3",
+    title: "Personalized SAAS",
+    text: "We can help you create Landing Pages, Extensive Course Systems Containing Dedicated Systems To Manage Courses and Students. And Lead Management Saas consisting of Le﻿ad Tracker, Keeping track of the potential leads and follow-up reminders. Appointment scheduler where users can schedule appointments with an integrated calendar and reminder system. Message Hubs which is a single place to manage email, call and messages related to sales. Analytics Dashboard providing proper insights of sales & appointment setting performance, conversion rates etc.Automated Email Sequence for setting up automated emails to stay in touch with potential customers and follow-ups. CRM(Customer Relationship Management) to Manage Customer Relationships.",
+    backgroundUrl: `${benefitCard4}`,
+    iconUrl: benefitIcon3,
+    imageUrl: benefitImage2,
+  },
+  {
+    id: "4",
+    title: "Course Systems",
+    text: "We can also help you create courses, create a course structure and flow, help you script the content of the entire course, edit it in an attention retaining way so that the students are hooked throughout the lectures, and hosting it on a platform and maintaining it. We also have a student management system, AI doubt solving, discussion forums, security protocols in place so that your course videos can never be pirated. We also create promotional strategies for the course using our Content and Sales Systems. All in all whatever you need to create, manage and promote your course.",
+    backgroundUrl:`${benefitCard5}`,
+    iconUrl: benefitIcon1,
+    imageUrl: benefitImage2,
+  },
+  {
+    id: "5",
+    title: "AdimediaX: It's Your Turn",
+    text: "AdimediaX empowers your brand to become a content creation machine, eliminating the need for manual content production. We leverage sales and content automation to transform your brand providing real value and creating a strong community that trusts and respects you.",
+    backgroundUrl: `${benefitCard6}`,
+    iconUrl: benefitIcon2,
+    imageUrl: benefitImage2,
   },
 ];
 

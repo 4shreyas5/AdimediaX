@@ -4,9 +4,9 @@ import Section from "./Section";
 import { BackgroundCircles, BottomLine } from "./design/Hero";
 import { ScrollParallax } from "react-just-parallax";
 import { useRef } from "react";
-import CompanyLogos3 from "./CompanyLogos2";
+import CompanyLogos3 from "./CompanyLogos3";
 
-const Hero2 = () => {
+const Hero3 = () => {
   const parallaxRef = useRef(null);
 
   return (
@@ -20,8 +20,7 @@ const Hero2 = () => {
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6">
-          Podcasting Solutions for 
-Creators and Companies {` `}
+          Maximize Your Brand’s Growth{` `}
             <span className="inline-block relative">
               AdimediaX{" "}
               <img
@@ -34,9 +33,10 @@ Creators and Companies {` `}
             </span>
           </h1>
           <div className="my-24 text-xl">
-          We help creators and companies to start and grow podcasts to enhance their online reach, attract high-quality leads, and boost revenue. Whether you're launching a new podcast or optimizing an existing one, we're here to help.
-          <br/> <div>Let's collaborate to elevate your brand and drive impactful results. </div>
-          <br/><div className="text-3xl text-[#A055FF]">Ready to stand out in the digital landscape? </div>
+          AdimediaX is your personalized growth engine, designed for coaches seeking amplified brand presence and data-driven student acquisition.
+          <br/> <div> We have Proprietary content and sales automation systems that can maximize your growth in every possible way, propelling your coaching business forward.
+</div>
+          <br/><div className="text-3xl text-[#A055FF]">Let's collaborate to elevate your brand and drive impactful results. </div>
           </div>
 
 
@@ -59,4 +59,4 @@ Creators and Companies {` `}
   );
 };
 
-export default Hero2;
+export default Hero3;

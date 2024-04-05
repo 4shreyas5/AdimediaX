@@ -16,7 +16,7 @@ const CompanyLogos3 = ({ className }) => {
   return (
     <div className={className}>
       <h5 className="tagline mb-6 text-center text-n-1/50">
-        Helping StartUps reach mountains
+        Helping Coaches reach mountains
       </h5>
       <ul className="flex">
         {companyLogos3.map((logo, index) => (

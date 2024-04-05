@@ -1,9 +1,9 @@
-import Benefits3 from "./components/Benefits2";
-import Collaboration3 from "./components/Collaboration2";
-import Hero3 from "./components/Hero2";
-import Pricing3 from "./components/Prices2"
-import Roadmap3 from "./components/Roadmap2";
-import Services3 from "./components/Services2";
+import Benefits3 from "./components/Benefits3";
+import Collaboration3 from "./components/Collaboration3";
+import Hero3 from "./components/Hero3";
+import Pricing3 from "./components/Pricing3"
+import Roadmap3 from "./components/Roadmap3";
+import Services3 from "./components/Services3";
 
 const Coaches = () => {
   return (
