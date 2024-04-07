@@ -30,7 +30,7 @@ const Collaboration2 = () => {
             ))}
           </ul>
 
-          <Button href="https://calendly.com/adimediax/adimediax-discovery-call" className="mt-28">Try it now</Button>
+          <Button href="https://calendly.com/adimediax/adimediax-discovery-call" className="mt-40">Try it now</Button>
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">

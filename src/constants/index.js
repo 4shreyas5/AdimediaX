@@ -550,7 +550,7 @@ export const benefits2 = [
   {
     id: "0",
     title: "Recording Your Podcast",
-    text: "Start by dedicating just 1 hour a week to recording your podcast. This is a manageable amount of time that can be easily incorporated into your schedule. Then It will be posted on the top streaming platforms.",
+    text: "Begin by allocating merely one hour per week to podcast recording. This is a feasible timeframe, seamlessly fitting into your schedule. Subsequently, your podcast will be distributed across leading streaming platforms, ensuring widespread accessibility and reach for your content.",
     backgroundUrl: `${benefitCard1}`,
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
@@ -558,7 +558,7 @@ export const benefits2 = [
   {
     id: "1",
     title: "Repurpose Your Content",
-    text: "Visual Content: Turn your podcast into 2 engaging Youtube videos. Social Media Engagement: Extract 60 short snippets for platforms like Instagram and Tiktok to grab viewers' attention. Written Content: Create 2 SEO-optimized articles based on your podcast topics to improve discoverability in search engines.",
+    text: "Step 2 involves repurposing your content effectively to broaden your audience. Convert your podcast into two captivating YouTube videos for visual engagement. Extract 60 brief snippets for platforms like Instagram and TikTok to captivate viewers. Additionally, craft two SEO-optimized articles from your podcast topics to enhance search engine discoverability.",
     backgroundUrl:`${benefitCard2}`,
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -567,7 +567,7 @@ export const benefits2 = [
   {
     id: "2",
     title: "Building Your Audience",
-    text: "By consistently recording and repurposing your content across various platforms, you'll establish a strong presence and attract a loyal audience for your podcast. This multi-pronged approach ensures you're reaching listeners wherever they consume their content. With dedication and strategic repurposing, your podcast can evolve from a one-hour recording to a powerful content powerhouse.",
+    text: "Through persistent recording and repurposing across diverse platforms, you'll forge a robust presence, drawing a dedicated podcast audience. This multifaceted strategy ensures accessibility across various content consumption channels. With commitment and strategic adaptation, your podcast can transform from a mere hour-long recording into a formidable content hub.",
     backgroundUrl: `${benefitCard3}`,
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
