@@ -3,7 +3,7 @@ import { companyLogos3 } from "../constants";
 const CompanyLogos3 = ({ className }) => {
   const handleMouseEnter = (event, valuation) => {
     const overlay = event.currentTarget.querySelector('.valuation-overlay');
-    overlay.textContent = `Followers: ${valuation}`;
+    overlay.textContent = `${valuation}`;
     overlay.classList.add('opacity-100', 'scale-100'); 
   };
 
