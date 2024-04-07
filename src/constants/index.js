@@ -43,30 +43,40 @@ import {
 } from "../assets";
 
 export const navigation = [
+  // {
+  //   id: "0",
+  //   title: "How it works?",
+  //   url: "#features",
+  // },
+  // {
+  //   id: "1",
+  //   title: "Pricing",
+  //   url: "#pricing",
+  // },
+  // {
+  //   id: "2",
+  //   title: "Your Brand's Voice",
+  //   url: "#how-to-use",
+  // },
+  // {
+  //   id: "3",
+  //   title: "Testimonials",
+  //   url: "#roadmap",
+  // },
   {
     id: "0",
-    title: "How it works?",
-    url: "#features",
+    title: "Startup",
+    url: "#startup",
   },
   {
     id: "1",
-    title: "Pricing",
-    url: "#pricing",
+    title: "Podcast",
+    url: "#podcast",
   },
   {
     id: "2",
-    title: "Your Brand's Voice",
-    url: "#how-to-use",
-  },
-  {
-    id: "3",
-    title: "Testimonials",
-    url: "#roadmap",
-  },
-  {
-    id: "4",
-    title: "Podcast",
-    url: "#podcast",
+    title: "Coaches",
+    url: "#coaches",
   },
 ];
 

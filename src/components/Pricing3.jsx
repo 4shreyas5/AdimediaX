@@ -37,8 +37,6 @@ const Pricing3 = () => {
           <LeftLine />
           <RightLine />
         </div>
-
-
       </div>
     </Section>
   );
