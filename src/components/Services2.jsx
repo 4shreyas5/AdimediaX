@@ -19,7 +19,7 @@ const Services2 = () => {
           <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
             <iframe
               title="Horizontal Video"
-              src="https://www.instagram.com/reel/Cp4jRsFIGYn/embed"
+              src="https://www.youtube.com/embed/zImnxyXPufs"
               allowFullScreen
               className="w-full h-[600px]"
             ></iframe>
@@ -27,21 +27,21 @@ const Services2 = () => {
 
           <div className="relative z-1 grid gap-5 lg:grid-cols-2">
             <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
-            <iframe
-              title="Horizontal Video"
-              src="https://www.instagram.com/reel/C30zN9mxnjZ/embed"
-              allowFullScreen
-              className="w-full h-full"
-            ></iframe>
+              <iframe
+                title="Instagram Video"
+                src="https://www.instagram.com/reel/C4OcPb-NcST/embed/"
+                allowFullScreen
+                className="w-full h-full"
+              ></iframe>
             </div>
 
             <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
-            <iframe
-              title="Horizontal Video"
-              src="https://www.instagram.com/reel/Cn-VooPvwCO/embed"
-              allowFullScreen
-              className="w-full h-full"
-            ></iframe>
+              <iframe
+                title="Instagram Video"
+                src="https://www.instagram.com/reel/C40nH0nL0_R/embed/"
+                allowFullScreen
+                className="w-full h-full"
+              ></iframe>
             </div>
           </div>
 
