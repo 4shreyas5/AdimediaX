@@ -29,7 +29,7 @@ const Services2 = () => {
             <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
               <iframe
                 title="Instagram Video"
-                src="https://www.instagram.com/reel/C4OcPb-NcST/embed/"
+                src="https://www.instagram.com/reel/C5Q5DUKL-Kr/embed/"
                 allowFullScreen
                 className="w-full h-full"
               ></iframe>
