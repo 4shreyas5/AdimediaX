@@ -29,7 +29,7 @@ const Pricing2 = () => {
 
         <Heading
           tag="Menu Items"
-          title="Retainers"
+          title="Let's Work Together"
         />
 
         <div className="relative">

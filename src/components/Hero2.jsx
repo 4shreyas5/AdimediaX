@@ -34,9 +34,10 @@ Creators and Companies {` `}
             </span>
           </h1>
           <div className="my-24 text-xl">
-          We help creators and companies to start and grow podcasts to enhance their online reach, attract high-quality leads, and boost revenue. Whether you're launching a new podcast or optimizing an existing one, we're here to help.
+          We help creators and companies to start and grow podcasts to enhance their online reach across all major platforms, attract high quality leads, and boost revenue.
+
           <br/> <div>Let's collaborate to elevate your brand and drive impactful results. </div>
-          <br/><div className="text-3xl text-[#A055FF]">Ready to stand out in the digital landscape? </div>
+          <br/><div className="text-3xl text-[#A055FF]">Ready to stand out in the Podcasting Landscape?</div>
           </div>
 
 
