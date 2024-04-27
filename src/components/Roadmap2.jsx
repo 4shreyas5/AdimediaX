@@ -71,6 +71,16 @@ const Roadmap2 = () => (
       <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
         <Button href="https://calendly.com/adimediax/adimediax-discovery-call">Book A Call</Button>
       </div>
+      <div className="relative mt-20">
+          <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
+            <iframe
+              title="Horizontal Video"
+              src="https://www.youtube.com/embed/4ervBFo7U0I"
+              allowFullScreen
+              className="w-full h-[600px]"
+            ></iframe>
+          </div>
+          </div>
     </div>
   </Section>
 );
