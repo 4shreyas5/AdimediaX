@@ -409,6 +409,7 @@ export const pricing2 = [
     features: [
       "30 shorts/month",
       "Posted on Instagram, YouTube, LinkedIn, Facebook & TikTok",
+      "Monetization of the podcast",
       "Repurposed content",
       "Custom scripted content",
       "Custom animations",
@@ -425,6 +426,7 @@ export const pricing2 = [
       "4 podcasts/month",
       "Guest sourcing & ideation",
       "Podcast brand & website creation",
+      "Monetization of the podcast",
       "Custom shorts",
       "Custom animations",
       "Reporting & Analytics",
@@ -443,6 +445,7 @@ export const pricing2 = [
       "4 Long-form clips for YouTube/month",
       "30-60 shorts/month",
       "Custom animations",
+      "Monetization of the podcast",
       "Reporting & Analytics",
       "24x7 slack support"
     ]
