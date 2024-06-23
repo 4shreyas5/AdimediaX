@@ -179,7 +179,7 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "You guys have an amazing editing team. Good Work.",
+    title: "You guys did amazing work on Instagram and LinkedIn.",
     text: "Team Deel",
     date: "October 2023",
     status: "done",
@@ -188,7 +188,7 @@ export const roadmap = [
   },
   {
     id: "1",
-    title: "Great Results on the FB Ads and SEO.",
+    title: "Very good content structure.",
     text: "Team BILT",
     date: "January 2024",
     status: "done",
@@ -357,13 +357,13 @@ export const pricing = [
   {
     id: "0",
     title: "Launchpad",
-    description: " Ideal for early-stage startups seeking to establish a strong online presence.",
+    description: "Focused on Founder Led Content.",
     price: null,
     features: [
-      "60+ social media posts per month",
-      "Targeted Facebook & Google Ads campaign setup (with customized content)",
-      "Basic on-page SEO optimization",
-      "Founder personal brand development consultation (FREE)",
+      "60+ Pieces of Customized Content for Linkedin and Instagram",
+      "Content Includes (Custom content, New Launches, Company’s Journey and Challenges, Industry Updates, Hiring Updates)",
+      "Focusing on creating a vision based narrative",
+      "Community Engagement",
       "Reporting and analysis",
       "24x7 slack support"
     ],
@@ -371,13 +371,13 @@ export const pricing = [
   {
     id: "1",
     title: "Ascend",
-    description: "Designed for startups ready to accelerate their growth",
+    description: "Focused On Value-First Content Approach",
     price: "9.99",
     features: [
-      "100+ social media posts per month",
-      "Optimized Facebook & Google Ads campaigns (customized content)",
-      "Comprehensive on-page & technical SEO audit",
-      "Founder personal brand content creation and social media management",
+      "100+ Pieces of Value based Content for Linkedin, Youtube and Instagram",
+      "Content Includes (Custom content, Discussing Consumer Painpoints and Solutions, Industry Updates,New Features)",
+      "Niche Specific Influencer Collaborations",
+      "Community Engagement",
       "Reporting and analysis",
       "24x7 slack support"
     ]
@@ -386,13 +386,13 @@ export const pricing = [
   {
     id: "2",
     title: "Dominate",
-    description: "For established startups poised for market leadership",
+    description: "Fonder Led + Value Based Content",
     price: null,
     features: [
-      "200+ social media posts per month",
-      "Advanced Facebook & Google Ads campaigns with A/B testing",
-      "Ongoing SEO monitoring and optimization",
-      "Dedicated founder personal brand management and content strategy",
+      "150+ Pieces of Founder led and Value based Content for Linkedin, Youtube and Instagram",
+      "Content Includes (Custom content, Discussing Consumer Painpoints and Solutions, Industry Updates, New Features, New Launches, Company’s Journey and Challenges, Hiring Updates)",
+      "Niche Specific Influencer Collaborations and Vision Based Narrative",
+      "Community Engagement",
       "Reporting and analysis",
       "24x7 slack support"
       
@@ -518,8 +518,8 @@ export const benefits = [
   },
   {
     id: "1",
-    title: "Targeted Audience Growth",
-    text: "We create a strong social media presence through strategic management. Laser-focused Facebook & Google Ads campaigns bring your ideal customers straight to your doorstep. Data analysis is our secret weapon, optimizing campaigns for maximum reach and ROI. ",
+    title: "Founder Led Content",
+    text: "Adds Authenticity and Credibility to a Startup’s Message. Humanizes the brand and puts a face to the company. Driving traffic through Vision Based Brand Narratives. AdimediaX Podcasting Solutions. Builds a strong online community for users to engage in creating a loyal userbase with a continuous feedback loop to improve",
     backgroundUrl:`${benefitCard2}`,
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -527,8 +527,8 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Building Your Founder's Brand",
-    text: " We develop a compelling narrative that showcases the founder(s) as industry experts. Content specifically designed to elevate their personal brand strengthens your startup's credibility. Social media platforms become a launchpad for building a loyal founder following which in turn strengthens your brand reputation.",
+    title: "Value First Content",
+    text: " Focusing on the needs, interests, and challenges of the target audience, which enhances engagement and builds trust. Value First content attracts organic traffic, generates leads, and nurtures prospects through the sales funnel, ultimately boosting conversions and revenue. High-value content is more likely to be shared across social media platforms and other channels, expanding the startup's reach",
     backgroundUrl: `${benefitCard3}`,
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -536,8 +536,8 @@ export const benefits = [
   },
   {
     id: "3",
-    title: "SEO: The Traffic Magnet",
-    text: "We fine-tune your website for search engines, boosting your ranking and attracting organic traffic. Content marketing strategies get visitors in with valuable information. A comprehensive technical SEO audit identifies areas for improvement, maximizing website efficiency.",
+    title: "Community Engagement",
+    text: "Build genuine relationships with your audience by actively listening, responding to feedback, and showing appreciation for their support. Build genuine relationships with your audience by actively listening, responding to feedback, and showing appreciation for their support. Encouraging user-generated content, run contests, and create interactive posts to boost engagement and visibility.",
     backgroundUrl: `${benefitCard4}`,
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
