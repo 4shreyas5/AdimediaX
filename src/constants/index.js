@@ -386,13 +386,14 @@ export const pricing = [
   {
     id: "2",
     title: "Dominate",
-    description: "Fonder Led + Value Based Content",
+    description: "Founder Led + Value Based Content",
     price: null,
     features: [
       "150+ Pieces of Founder led and Value based Content for Linkedin, Youtube and Instagram",
       "Content Includes (Custom content, Discussing Consumer Painpoints and Solutions, Industry Updates, New Features, New Launches, Company’s Journey and Challenges, Hiring Updates)",
       "Niche Specific Influencer Collaborations and Vision Based Narrative",
       "Community Engagement",
+      "Performance Marketing",
       "Reporting and analysis",
       "24x7 slack support"
       
