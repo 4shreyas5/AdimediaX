@@ -33,16 +33,16 @@ const Hero = () => {
             </span>
           </h1>
           <div className="my-24 text-xl">
-          Empowering new-age startups to amplify their brand voice through compelling content and drive high-quality leads through data-centric performance marketing.
+          Empowering new-age startups to amplify their brand voice through compelling content and drive high-quality leads through Founder Led Content and Value First Content Approach.
           At AdimediaX, we specialize in crafting tailored strategies that resonate with your audience and propel your growth. 
           <br/> <div>Let's collaborate to elevate your brand and drive impactful results. </div>
-          <br/><div className="text-3xl text-[#A055FF]">Ready to stand out in the digital landscape? </div>
+          <br/><div className="text-3xl text-[#A055FF]">Ready To Stir Sh*t Up in the Startup Space?</div>
           </div>
 
 
 
           <Button href="https://calendly.com/adimediax/adimediax-discovery-call">
-          Let's get started!
+          Book A Stratergy Call
           </Button>
         </div>
         
