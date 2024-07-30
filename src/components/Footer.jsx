@@ -1,15 +1,18 @@
 import React from "react";
 import Section from "./Section";
 import { socials } from "../constants";
+import Button from "./Button";
 
-const Footer = () => {
+const Footer = ({ onPrivacyPolicyClick }) => {
   return (
     <Section crosses className="!px-0 !py-10">
       <div className="container flex sm:justify-between justify-center items-center gap-10 max-sm:flex-col">
         <p className="caption text-n-4 lg:block">
           © {new Date().getFullYear()}. All rights reserved.
         </p>
-
+        <div className="flex justify-center mb-20 md:mt-15 xl:mt-20">
+          <Button onClick={onPrivacyPolicyClick}>Privacy Policies</Button>
+        </div>
         <ul className="flex gap-5 flex-wrap">
           {socials.map((item) => (
             <a

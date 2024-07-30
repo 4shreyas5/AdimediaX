@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Podcast from "./Podcast";
 import Startup from "./Startup";
 import Coaches from "./Coaches";
+import PrivacyPolicy from "./components/PrivacyPolicies";
 
 const App = () => {
   const [activeComponent, setActiveComponent] = useState("0");
@@ -15,11 +16,17 @@ const App = () => {
       setActiveComponent("1");
     } else if (hash === "coaches") {
       setActiveComponent("2");
+    } else if (hash === "privacy-policy") {
+      setActiveComponent("3");
     }
   }, []);
 
   const handleNavItemClicked = (item) => {
     setActiveComponent(item.id);
+  };
+
+  const handlePrivacyPolicyClick = () => {
+    setActiveComponent("3");
   };
 
   return (
@@ -29,7 +36,8 @@ const App = () => {
         {activeComponent === "0" && <Startup />}
         {activeComponent === "1" && <Podcast />}
         {activeComponent === "2" && <Coaches />}
-        <Footer />
+        {activeComponent === "3" && <PrivacyPolicy />} {/* Add PrivacyPolicy component */}
+        <Footer onPrivacyPolicyClick={handlePrivacyPolicyClick} />
       </div>
       <ButtonGradient />
     </>

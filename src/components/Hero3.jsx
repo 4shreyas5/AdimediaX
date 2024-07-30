@@ -20,7 +20,7 @@ const Hero3 = () => {
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6">
-          Maximize Your Brand’s Growth{` `}
+            Maximize Your Brand’s Growth{` `}
             <span className="inline-block relative">
               AdimediaX{" "}
               <img
@@ -32,24 +32,42 @@ const Hero3 = () => {
               />
             </span>
           </h1>
-          <div className="my-24 text-xl">
-          AdimediaX is your personalized growth engine, designed for coaches seeking amplified brand presence and data-driven student acquisition.
-          <br/> <div> We have Proprietary content and sales automation systems that can maximize your growth in every possible way, propelling your coaching business forward.
-</div>
-          <br/><div className="text-3xl text-[#A055FF]">Let's collaborate to elevate your brand and drive impactful results. </div>
+          
+          <div className="mb-10 mt-10 flex justify-center">
+            <div className="relative" style={{ paddingBottom: "56.25%", height: 0, overflow: "hidden", maxWidth: "100%", position: "relative" }}>
+              <iframe
+                width="560"
+                height="315"
+                src="https://adimediax.wistia.com/embed/medias/yv8l6790p9"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
           </div>
-
-
-
-          <Button href="https://calendly.com/adimediax/adimediax-discovery-call">
-          Let's get started!
+          
+          <Button href="https://calendly.com/adimediax/adimediax-discovery-call" className="mt-6">
+            Let's get started!
           </Button>
+          
+          <div className="my-24 text-xl">
+            AdimediaX is your personalized growth engine, designed for coaches seeking amplified brand presence and data-driven student acquisition.
+            <br/> 
+            <div> 
+            We have proprietary content and sales automation systems for exponential growth in every possible way, propelling your coaching business forward.
+
+            </div>
+            <br/>
+            <div className="text-3xl -mb-20 text-[#A055FF]">
+            Let's Collaborate and Build You a Strong Student Community and Drive Impactful Results.
+            </div>
+          </div>
         </div>
         
-          <ScrollParallax>
+        <ScrollParallax>
           <BackgroundCircles />
-          </ScrollParallax>
-     
+        </ScrollParallax>
 
         <CompanyLogos3 className="relative z-10 mt-20 lg:block" />
       </div>

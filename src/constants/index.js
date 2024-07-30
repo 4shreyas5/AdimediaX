@@ -456,53 +456,51 @@ export const pricing2 = [
 export const pricing3 = [
   {
     id: "0",
-    title: "Growth Pro",
-    description: "For Coaches who already have a course and want to focus on growing their brand reach increase sales.",
+    title: "Brand X",
+    description: "High Quality Content To Grow Your Social Media Pages",
     price: null,
     features: [
-      "Growth Systems ",
-      "Content Systems (AI, Promotional, Growth, Ads, VSL)",
-      "Copywriting (Scripts, Ads, Visuals)",
-      "Appointment Setting Systems",
-      "Experienced Closers",
-      "Cold and Internal Outreach Systems ",
-      "SAAS Systems (Course Management, Landing Page) ",
-      "Social Media Management"
+      "30 pieces/month",
+      "Unlimited Story Content",
+      "Repurposed content",
+      "Custom Branded content",
+      "Copywriting Services",
+      "Social Media Management",
+      "Reporting & Analytics",
+      "24x7 slack support"
     ],
   },
   {
     id: "1",
-    title: "Course Pro",
-    description: "For Coaches who want to build a course from scratch and optimize their brand to increase the reach and maximize sales.",
+    title: "Growth X",
+    description: "All Content Services + Course Creation Editing or Video Ads",
     price: "9.99",
     features: [
-      "Course Creation (Structure, Scripts, Editing)",
-      "Content Systems (AI, Promotional, Ads)",
-      "VSL Creation",
-      "Copywriting (Scripts, Ads, Visuals)",
-      "Appointment Setting",
-      "Experienced Closers",
-      "AI Sales",
-      "Saas(Management Systems)",
-      "Social Media Management"
+      "30 pieces/month",
+      "VSL + Video Ads or Course Creation and Editing",
+      "AI Content Sales System",
+      "Custom Branded Content",
+      "Copywriting Services",
+      "Social Media Management",
+      "Reporting & Analytics",
+      "24x7 slack support"
     ]
       
   },
   {
     id: "2",
-    title: "Branding Pro",
-    description: "For Coaches and Brands who just want to focus on maximizing sales across multiple platforms for their courses, products etc",
+    title: "Scale X",
+    description: "Brand X + Growth X + Skool Community Services",
     price: null ,
     features: [
-      "FB Ads",
-      "Youtube Ads",
-      "Linkedin Ads",
-      "Content (Promotional, VSL, Ads)",
-      "SEO",
-      "Marketing Management Saas",
+      "45 pieces/month",
+      "VSL + Video Ads + Course Creation and Editing",
+      "AI Content Sales System",
+      "Custom Scripted Content To Build Skool Community",
+      "Skool Monetization Funnel",
       "Social Media Management",
-      "Content and Engagement Plan",
-      "Rebranding(If Needed)"
+      "Reporting & Analytics",
+      "24x7 slack support"
     ]
   },
 ];
@@ -592,53 +590,36 @@ export const benefits3 = [
   {
     id: "0",
     title: "Content Systems",
-    text: "Our content crushes it! Scripting, visuals, editing - all under one roof. We craft viral, valuable content that drives organic growth. Want video summaries? AI handles that! From reels to infographics, we deliver what you need.",
+    text: "Our Content Cruses it! Scripting, Visuals, Editing all under 1 roof. We craft viral, valuable content that drives organic growth. From Video Content like Reels, to Visual Content like Carousels and infographics, to Written Content for LinkedIn and Twitter, we deliver what you need!",
     backgroundUrl: `${benefitCard1}`,
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Sales Systems",
-    text: "Dominate sales! Our experts setters and closers secure calls & close deals (40-60% rate). Cold/Warm outreach gets leads, AI warms them up, viral content converts. All-in-one solution!",
-    backgroundUrl:`${benefitCard2}`,
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
-    light: true,
-  },
-  {
-    id: "2",
     title: "Growth Systems",
-    text: "Grow your high-ticket audience! Targeted shoutouts & ads reach 1st-world buyers. Proven content + personalization. Partnered with top pages [@entrepreneur(4.5M), @thinkingminds(7.7M),100+ Pages]. Expert SEO & Ads (FB, Google, LinkedIn).",
+    text: "Grow your audience and create a high value monetization funnel using Content and Ads. Proven Content Structure + Personalization gives you amazing results using our Content Systems, Shoutout Systems and Meta, LinkedIn and YouTube Ad Expert Systems.",
     backgroundUrl: `${benefitCard3}`,
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
     light: true,
   },
   {
-    id: "3",
-    title: "Personalized SAAS",
-    text: "Build & nurture leads with our personalized saas systems! Craft landing pages, manage courses and students, track leads & appointments. Automated emails & CRM keep you connected.",
-    backgroundUrl: `${benefitCard4}`,
-    iconUrl: benefitIcon3,
-    imageUrl: benefitImage2,
-  },
-  {
-    id: "4",
-    title: "Course Systems",
-    text: "Craft & launch your dream course! Scripting, editing, hosting, & management. Course management with secured courses with piracy protection. Extended and personalized promotions via our content & sales systems.",
+    id: "2",
+    title: "Skool Systems",
+    text: "Build out a very solid monetization funnel using skool communities with monthly recurring revenue over $100,000/month using your strong personal brand and a result oriented content and ad funnel.",
     backgroundUrl:`${benefitCard5}`,
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
-  },
-  {
-    id: "5",
-    title: "AdimediaX: It's Your Turn",
-    text: "AdimediaX empowers your brand to become a content creation machine, eliminating the need for manual content production. We leverage sales and content automation to transform your brand providing real value and creating a strong community that trusts and respects you.",
-    backgroundUrl: `${benefitCard6}`,
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
-  },
+  }
+  // {
+  //   id: "2",
+  //   title: "Course Systems",
+  //   text: "Craft & launch your dream course! Scripting, editing, hosting, & management. Course management with secured courses with piracy protection. Extended and personalized promotions via our content & sales systems.",
+  //   backgroundUrl:`${benefitCard5}`,
+  //   iconUrl: benefitIcon1,
+  //   imageUrl: benefitImage2,
+  // }
 ];
 
 export const socials = [
