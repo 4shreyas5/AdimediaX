@@ -36,7 +36,7 @@ const App = () => {
         {activeComponent === "0" && <Startup />}
         {activeComponent === "1" && <Podcast />}
         {activeComponent === "2" && <Coaches />}
-        {activeComponent === "3" && <PrivacyPolicy />} {/* Add PrivacyPolicy component */}
+        {activeComponent === "3" && <PrivacyPolicy />} 
         <Footer onPrivacyPolicyClick={handlePrivacyPolicyClick} />
       </div>
       <ButtonGradient />

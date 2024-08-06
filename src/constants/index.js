@@ -78,6 +78,11 @@ export const navigation = [
     title: "Coaches",
     url: "#coaches",
   },
+  {
+    id: "3",
+    title: "Privacy Policies",
+    url: "#privacy-policy",
+  },
 ];
 
 export const notificationImages = [notification4, notification3, notification2];
