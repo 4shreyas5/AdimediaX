@@ -63,18 +63,18 @@ export const navigation = [
   //   title: "Testimonials",
   //   url: "#roadmap",
   // },
+  // {
+  //   id: "0",
+  //   title: "Startup",
+  //   url: "#startup",
+  // },
+  // {
+  //   id: "1",
+  //   title: "Podcast",
+  //   url: "#podcast",
+  // },
   {
     id: "0",
-    title: "Startup",
-    url: "#startup",
-  },
-  {
-    id: "1",
-    title: "Podcast",
-    url: "#podcast",
-  },
-  {
-    id: "2",
     title: "Coaches",
     url: "#coaches",
   },

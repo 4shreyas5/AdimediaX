@@ -49,7 +49,7 @@ const Hero3 = () => {
           </div>
           
           <Button href="https://calendly.com/adimediax/adimediax-discovery-call" className="mt-6">
-            Let's get started!
+            Schedule A Call!
           </Button>
           
           <div className="my-24 text-xl">
