@@ -34,15 +34,16 @@ const Hero3 = () => {
           </h1>
           
           <div className="mb-10 mt-10 flex justify-center">
-            <div className="relative" style={{ paddingBottom: "56.25%", height: 0, overflow: "hidden", maxWidth: "100%", position: "relative" }}>
+            <div className="relative w-full max-w-md" style={{ paddingBottom: "56.25%", height: 0, overflow: "hidden" }}>
               <iframe
-                width="560"
-                height="315"
+                width="100%"
+                height="100%"
                 src="https://adimediax.wistia.com/embed/medias/yv8l6790p9"
-                title="YouTube video player"
+                title="Video player"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
+                className="absolute top-0 left-0 w-full h-full"
               ></iframe>
             </div>
           </div>
@@ -56,7 +57,6 @@ const Hero3 = () => {
             <br/> 
             <div> 
             We have proprietary content and sales automation systems for exponential growth in every possible way, propelling your coaching business forward.
-
             </div>
             <br/>
             <div className="text-3xl -mb-20 text-[#A055FF]">
