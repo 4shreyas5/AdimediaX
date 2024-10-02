@@ -461,51 +461,48 @@ export const pricing2 = [
 export const pricing3 = [
   {
     id: "0",
-    title: "Brand X",
-    description: "High Quality Content To Grow Your Social Media Pages",
+    title: "Community Catalyst",
+    description: "Ignite your Skool community by repurposing your course content and fueling engagement across all social platforms.",
     price: null,
     features: [
-      "30 pieces/month",
-      "Unlimited Story Content",
-      "Repurposed content",
-      "Custom Branded content",
-      "Copywriting Services",
-      "Social Media Management",
-      "Reporting & Analytics",
-      "24x7 slack support"
+      "30+ pieces of custom social media content across platforms",
+"20+ pieces of repurposed course content, including quizzes and gamified content designed for community engagement",
+"Community setup and onboarding process for seamless user experience",
+"Ongoing community management and content scheduling",
+"Growth Distribution Funnel to attract new members consistently",
+"Monthly reporting to track community growth and engagement metrics",
+"24x7 Slack Support"
     ],
   },
   {
     id: "1",
-    title: "Growth X",
-    description: "All Content Services + Course Creation Editing or Video Ads",
+    title: "Conversion Accelerator",
+    description: "Launch a Skool community from scratch with tailored content, designed CTAs, and explosive growth through high-engagement strategies.",
     price: "9.99",
     features: [
-      "30 pieces/month",
-      "VSL + Video Ads or Course Creation and Editing",
-      "AI Content Sales System",
-      "Custom Branded Content",
-      "Copywriting Services",
-      "Social Media Management",
-      "Reporting & Analytics",
-      "24x7 slack support"
+     "45+ pieces of custom social media content to promote the community",
+"30+ pieces of course content, quizzes, and gamified learning materials designed to maximize community engagement",
+"Internal community engagement content tailored to stimulate interaction and participation",
+"Subtle CTAs embedded at strategic points to drive conversions",
+"Quizzes and gamified content to enhance the user learning experience",
+"Comprehensive community management for maintaining engagement and growth",
+"24x7 Slack Support"
     ]
       
   },
   {
     id: "2",
-    title: "Scale X",
-    description: "Brand X + Growth X + Skool Community Services",
+    title: "Empire Builder",
+    description: "Construct a fully branded, feature-packed private community, leveraging cutting-edge tools for maximum growth and monetization.",
     price: null ,
     features: [
-      "45 pieces/month",
-      "VSL + Video Ads + Course Creation and Editing",
-      "AI Content Sales System",
-      "Custom Scripted Content To Build Skool Community",
-      "Skool Monetization Funnel",
-      "Social Media Management",
-      "Reporting & Analytics",
-      "24x7 slack support"
+      "Custom platform build with features like personalized dashboards, community chat, live sessions, and video hosting",
+"45+ pieces of custom social media content to drive traffic and awareness",
+"50+ pieces of gamified course content and internal community engagement content to keep members active and engaged",
+"Internal engagement strategies such as polls, quizzes, and challenges to stimulate participation",
+"Comprehensive community management for maintaining engagement and growth",
+"Reporting and Analytics",
+"24x7 Slack Support"
     ]
   },
 ];
@@ -611,8 +608,8 @@ export const benefits3 = [
   },
   {
     id: "2",
-    title: "Skool Systems",
-    text: "Build out a very solid monetization funnel using skool communities with monthly recurring revenue over $100,000/month using your strong personal brand and a result oriented content and ad funnel.",
+    title: "Community systems",
+    text: "Build a strong revenue stream using private communities, generating over $100,000/month in recurring revenue. Strengthen your personal brand and improve student acquisition by creating a space for engagement and connection, supported by high-quality content and strategic growth systems.",
     backgroundUrl:`${benefitCard5}`,
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,

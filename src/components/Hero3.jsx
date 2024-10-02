@@ -53,7 +53,7 @@ const Hero3 = () => {
           </Button>
           
           <div className="my-24 text-xl">
-            AdimediaX is your personalized growth engine, designed for coaches seeking amplified brand presence and data-driven student acquisition.
+          AdimediaX is your dedicated growth engine, tailored for coaches and creators seeking amplified brand presence, data-driven community growth, and student acquisition. We use proprietary content and community growth systems to drive exponential results, building and scaling your community while advancing your coaching or creator business at every level.
             <br/> 
             <div> 
             We have proprietary content and sales automation systems for exponential growth in every possible way, propelling your coaching business forward.

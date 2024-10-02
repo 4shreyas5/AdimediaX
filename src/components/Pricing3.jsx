@@ -28,8 +28,8 @@ const Pricing3 = () => {
         </div>
 
         <Heading
-          tag="Menu Items"
-          title="Retainers"
+          tag=""
+          title="For Building and Growing Your Community :"
         />
 
         <div className="relative">

@@ -11,7 +11,7 @@ const Coaches = () => {
         <Hero3/>
         <Benefits3 />
         <Collaboration3 />
-        <Services3 />
+        {/* <Services3 /> */}
         <Pricing3 />
         <Roadmap3 />
     </>
