@@ -34,19 +34,26 @@ const Hero3 = () => {
           </h1>
           
           <div className="mb-10 mt-10 flex justify-center">
-            <div className="relative w-full max-w-md" style={{ paddingBottom: "56.25%", height: 0, overflow: "hidden" }}>
-              <iframe
-                width="100%"
-                height="100%"
-                src="https://adimediax.wistia.com/embed/medias/yv8l6790p9"
-                title="Video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                className="absolute top-0 left-0 w-full h-full"
-              ></iframe>
-            </div>
-          </div>
+  <div 
+    className="relative w-full max-w-md sm:max-w-lg md:max-w-2xl lg:max-w-3xl"
+    style={{
+      paddingBottom: "50%", // 16:9 aspect ratio for mobile
+      height: 0, 
+      overflow: "hidden"
+    }}
+  >
+    <iframe
+      width="100%"
+      height="100%"
+      src="https://player.vimeo.com/video/1015480615"
+      title="Video player"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+      className="absolute top-0 left-0 w-full h-full"
+    ></iframe>
+  </div>
+</div>
           
           <Button href="https://calendly.com/adimediax/adimediax-discovery-call" className="mt-6">
             Schedule A Call!
