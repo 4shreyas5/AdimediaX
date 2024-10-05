@@ -32,13 +32,14 @@ const FaqItem = ({ item, index }) => {
 
         {/* Icon */}
         <div
-          className={clsx(
-            "faq-icon relative flex faq-size-12 items-center justify-center rounded-full border-2 border-faq-s2 faq-shadow-400 transition-all duration-500 group-hover:border-faq-s4",
-            active && "before:bg-faq-p1 after:rotate-0 after:bg-faq-p1"
-          )}
-        >
-          <div className="faq-g4 faq-size-11/12 rounded-full faq-shadow-300" />
-        </div>
+  className={clsx(
+    "faq-icon relative flex faq-size-12 items-center justify-center rounded-full border-2 border-faq-s2 faq-shadow-400 transition-all duration-500 group-hover:border-faq-s4",
+    active && "before:bg-faq-p1 after:rotate-0 after:bg-faq-p1",
+    "hidden lg:flex" // Hide on mobile, show on large screens
+  )}
+>
+  <div className="faq-g4 faq-size-11/12 rounded-full faq-shadow-300" />
+</div>
       </div>
 
       {/* Answer Section */}
