@@ -8,6 +8,7 @@ import c1 from "./Adimediax Solutions/c1.png"
 import c2 from "./Adimediax Solutions/c2.png"
 import c3 from "./Adimediax Solutions/c3.png"
 import c4 from "./Adimediax Solutions/c4.png"
+import l2 from "./Adimediax Solutions/2.svg"
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
@@ -110,6 +111,7 @@ export {
   c2,
   c3,
   c4,
+  l2,
   ig,
   tiktok,
   linkedinv,

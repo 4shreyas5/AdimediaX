@@ -3,6 +3,7 @@ import { Element } from "react-scroll";
 import { faq } from "../constants/index.js";
 import FaqItem from "./FaqItem.jsx";
 import Heading from "./Heading";
+import { l2 } from '../assets/index.js';
 
 const Faq = () => {
   const halfLength = Math.floor(faq.length / 2);
@@ -23,7 +24,7 @@ const Faq = () => {
             {/* Centered Circle with Logo */}
             <div className="logo-circle">
               <img
-                src="E:\AdimediaX\AdimediaX\src\assets\Adimediax Solutions\2.svg"
+                src={l2}
                 alt="logo"
                 className="w-16 h-16"
               />
