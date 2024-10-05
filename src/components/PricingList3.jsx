@@ -18,7 +18,7 @@ const PricingList3 = () => {
 
           <Button
             className="w-full my-6  "
-            href="https://calendly.com/adimediax/adimediax-discovery-call"
+            href="https://cal.com/adi-kzl7nk/30min?date=2024-10-05&month=2024-10"
             white={!!item.price}
           >
            Book A Call

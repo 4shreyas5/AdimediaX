@@ -55,7 +55,7 @@ const Hero3 = () => {
   </div>
 </div>
           
-          <Button href="https://calendly.com/adimediax/adimediax-discovery-call" className="mt-6">
+          <Button href="https://cal.com/adi-kzl7nk/30min?date=2024-10-05&month=2024-10" className="mt-6">
             Schedule A Call!
           </Button>
           

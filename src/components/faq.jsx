@@ -23,7 +23,7 @@ const Faq = () => {
             {/* Centered Circle with Logo */}
             <div className="logo-circle">
               <img
-                src="src/assets/Adimediax Solutions/2.svg"
+                src="E:\AdimediaX\AdimediaX\src\assets\Adimediax Solutions\2.svg"
                 alt="logo"
                 className="w-16 h-16"
               />
