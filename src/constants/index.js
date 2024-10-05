@@ -147,22 +147,26 @@ export const companyLogos3 = [
   { 
     image: c1,
     index: "0",
-    valuation: "@kekoamac"
+    valuation: "@bailey",
+    url: "https://www.skool.com/@bailey-vann-4572"
   },
   { 
     image: c2,
     index: "1",
-    valuation: "@setterbalazs"
+    valuation: "@evelyn",
+    url: "https://www.skool.com/grow-with-evelyn/about"
   },
   { 
     image: c3,
     index: "2",
-    valuation: "@paulhilse"
+    valuation: "@schoolofmentors",
+    url: "https://www.skool.com/school-of-mentors-1850/about"
   },
   { 
     image: c4,
     index: "3",
-    valuation: "@amzfbacoachmike"
+    valuation: "@wealthyu",
+    url: "https://www.skool.com/wealthyu/about"
   },
 ];
 
@@ -644,4 +648,69 @@ export const socials = [
     url: "#",
   },
 
+];
+
+export const faq = [
+  {
+    id: "0",
+    question: "I’m overwhelmed with my job. How can I fit this in?",
+    answer:
+      "I get it! Our bite-sized lessons are designed for busy lives. You can learn whenever it suits you, making it feel like a breeze.",
+  },
+  {
+    id: "1",
+    question: "I’m not tech-savvy. Can I succeed?",
+    answer:
+      "For sure! Our easy tutorials will have you navigating the tech side like a pro in no time.",
+  },
+  {
+    id: "2",
+    question: "What if I fail?",
+    answer:
+      "Failure is just a stepping stone! We share our stories, turning setbacks into powerful lessons that fuel growth.",
+   
+  },
+  {
+    id: "3",
+    question: "Isn’t there too much competition?",
+    answer:
+      "Think of competition as opportunity! We’ll help you find your unique niche and stand out in a crowded market.",
+  },
+  {
+    id: "4",
+    question: "How much time will this take?",
+    answer:
+      "You can start with just a few hours a week. It’s about fitting this journey into your life, not the other way around.",
+  },
+  {
+    id: "5",
+      question: "I don’t have a business background. Will this work for me?",
+      answer:
+        "Absolutely! Many of us started from scratch. Your passion is what counts, and we’ll guide you every step of the way.",
+    
+  },
+  {
+    id: "6",
+    question: "What if I don’t see quick results?",
+    answer:
+      "Patience is key! We celebrate small wins along the way, so you’ll see progress even if it feels slow.",
+  },
+  {
+    id: "7",
+    question: "How do I market my products?",
+    answer:
+      "We simplify marketing into fun, authentic strategies that resonate with your audience.",
+  },
+  {
+    id: "8",
+    question: "What if I can’t keep up?",
+    answer:
+      "No problem! Our resources are always available, so you can catch up whenever it works for you.",
+  },
+  {
+    id: "9",
+    question: "Can this really change my life?",
+    answer:
+      "Absolutely! Many members have transformed their lives here, finding the freedom they’ve always dreamed of.",
+  },
 ];

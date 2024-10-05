@@ -4,6 +4,7 @@ import Hero3 from "./components/Hero3";
 import Pricing3 from "./components/Pricing3"
 import Roadmap3 from "./components/Roadmap3";
 import Services3 from "./components/Services3";
+import Faq from "./components/faq";
 
 const Coaches = () => {
   return (
@@ -13,7 +14,8 @@ const Coaches = () => {
         <Collaboration3 />
         {/* <Services3 /> */}
         <Pricing3 />
-        <Roadmap3 />
+        <Faq />
+        {/* <Roadmap3 /> */}
     </>
   );
 };

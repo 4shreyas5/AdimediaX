@@ -1,0 +1,139 @@
+/* Styles for FaqItem and Faq components */
+
+/* Container for FAQ items */
+.faq-section {
+    position: relative;
+    background-color: #101010; /* Set background color to black */
+    color: white; /* Set default text color to white for contrast */
+    padding: 2rem; /* Add padding for better spacing */
+       
+}
+
+.faq-section-item {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 4rem;
+    
+}
+
+/* Number styling for each FAQ item */
+.text-faq-p3 {
+    color: #a055ff; /* Adjust color if needed */
+}
+
+/* Question text styling */
+.text-faq-p4 {
+    color: #EAEDFF; /* Light color for question text */
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.text-faq-p1 {
+    color: #a055ff; /* Active question color */
+}
+
+/* Icon styling for FAQ toggle */
+.faq-icon {
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid #0C1838;
+    transition: all 0.5s ease;
+}
+
+.faq-size-12 {
+    width: 3rem;
+    height: 3rem;
+}
+
+.faq-size-11-12 {
+    width: 2.75rem;
+    height: 2.75rem;
+}
+
+.faq-shadow-400 {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 
+                0px 16px 24px rgba(0, 0, 0, 0.25), 
+                inset 0px 3px 6px #a055ff;
+}
+
+.faq-shadow-300 {
+    box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.faq-g4 {
+    background-color: #23252a;
+}
+
+/* Animation for the icon rotation */
+.faq-icon.active:before {
+    background-color: #23252a;
+}
+
+.faq-icon.active:after {
+    transform: rotate(90deg);
+}
+
+/* Answer section transition */
+.faq-body-3 {
+    padding: 0.875rem 1.75rem;
+    background-color: #23252a;
+    border-radius: 14px;
+    transition: all 0.3s ease;
+}
+
+/* Background transition for each FAQ item */
+.faq-g5 {
+    background-color: #23252a;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.faq-g4 {
+    background-color: #23252a;
+}
+
+.faq-g5.active {
+    opacity: 1;
+}
+
+.faq-h6 {
+    font-size: 1.5rem;
+    transition: color 0.5s ease;
+}
+
+/* Centered circle around the logo */
+.faq-section .logo-circle {
+    position: absolute;
+    top: -2.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #28282a;
+    background-color: #a055ff;
+    border-radius: 50%;
+}
+
+.faq-section .logo-circle img {
+    width: 4rem;
+    height: 4rem;
+}
+
+/* Vertical divider */
+.faq-section .divider {
+    position: absolute;
+    top: 7.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0.125rem;
+    height: 77%;
+    background-color: #312f2f; 
+}
