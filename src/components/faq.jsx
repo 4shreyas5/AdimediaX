@@ -14,7 +14,7 @@ const Faq = () => {
         <div className="container relative z-10 pb-10">
           <div className="hidden relative justify-center mb-10 lg:flex"></div>
 
-          <Heading tag="" title="FAQ's" />
+          <Heading tag="" title="Your questions, Answered" />
 
           {/* Vertical Line in the Middle */}
         </div>

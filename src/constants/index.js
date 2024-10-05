@@ -652,65 +652,63 @@ export const socials = [
 
 export const faq = [
   {
-    id: "0",
-    question: "I’m overwhelmed with my job. How can I fit this in?",
-    answer:
-      "I get it! Our bite-sized lessons are designed for busy lives. You can learn whenever it suits you, making it feel like a breeze.",
-  },
-  {
     id: "1",
-    question: "I’m not tech-savvy. Can I succeed?",
+    question: "Who is this for?",
     answer:
-      "For sure! Our easy tutorials will have you navigating the tech side like a pro in no time.",
+      "Our services are tailored for creators, coaches, and entrepreneurs looking to grow their online presence and build engaged communities that drive consistent revenue..",
   },
   {
     id: "2",
-    question: "What if I fail?",
+    question: "Why communities?",
     answer:
-      "Failure is just a stepping stone! We share our stories, turning setbacks into powerful lessons that fuel growth.",
-   
+      "Communities foster loyal audiences that drive recurring revenue. By building low-ticket communities, coaches and creators can convert them into high-ticket clients and create sustainable growth for their brands.",
   },
   {
     id: "3",
-    question: "Isn’t there too much competition?",
+    question: "How will you build my online community?",
     answer:
-      "Think of competition as opportunity! We’ll help you find your unique niche and stand out in a crowded market.",
+      "We specialize in building private communities on platforms like Skool or custom systems. These communities nurture engagement, drive conversions building recurring revenue.",
+   
   },
   {
     id: "4",
-    question: "How much time will this take?",
+    question: "How is content managed for communities?",
     answer:
-      "You can start with just a few hours a week. It’s about fitting this journey into your life, not the other way around.",
+      "We create content from scratch and repurpose your existing content into engaging formats. We provide tailored videos, prompts, and resources to keep your community active, driving engagement and high-ticket conversions.",
   },
   {
     id: "5",
-      question: "I don’t have a business background. Will this work for me?",
-      answer:
-        "Absolutely! Many of us started from scratch. Your passion is what counts, and we’ll guide you every step of the way.",
-    
-  },
+    question: "How will the community be promoted?",
+    answer:
+      "We promote your community through multi social channel strategies, using our variation formula and growth distribution funnel, targeted content campaigns to attract and engage members.",                                                                },
   {
     id: "6",
-    question: "What if I don’t see quick results?",
+    question: "What is the process for working with AdimediaX?",
     answer:
-      "Patience is key! We celebrate small wins along the way, so you’ll see progress even if it feels slow.",
+      "We start with a consultation to understand your goals. From there, we create a custom strategy for building your community, enhancing your content, and optimizing your monetization opportunities.",
   },
   {
     id: "7",
-    question: "How do I market my products?",
+    question: "What if I don’t want a Skool community?",
     answer:
-      "We simplify marketing into fun, authentic strategies that resonate with your audience.",
+      "We can build custom platforms tailored to your needs. Whether you prefer a standalone community or integrating it with your existing website, we create flexible solutions to fit your vision.",
   },
   {
     id: "8",
-    question: "What if I can’t keep up?",
+    question: "What is your success rate?",
     answer:
-      "No problem! Our resources are always available, so you can catch up whenever it works for you.",
+      "We work with a select few clients (who are likely to win) to minimize churn and focuses on long-term partnerships and effective teamwork.",
   },
   {
     id: "9",
-    question: "Can this really change my life?",
+    question: "What is the cost of the service?",
     answer:
-      "Absolutely! Many members have transformed their lives here, finding the freedom they’ve always dreamed of.",
-  },
+      "We have custom plans for each client to work within their budget and maximize results. However, there is a minimum ticket size of $2k",
+  },
+{
+    id: "10",
+    question: "Can AdiMediaX help me launch a new product or course?",
+    answer:
+      "Yes! We offer end-to-end support for launching your product or course, including content creation, community management, and marketing strategies to ensure a successful launch..",
+  },
 ];
