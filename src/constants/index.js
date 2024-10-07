@@ -595,16 +595,16 @@ export const benefits2 = [
 export const benefits3 = [
   {
     id: "0",
-    title: "Content Systems",
-    text: "Our Content Cruses it! Scripting, Visuals, Editing all under 1 roof. We craft viral, valuable content that drives organic growth. From Video Content like Reels, to Visual Content like Carousels and infographics, to Written Content for LinkedIn and Twitter, we deliver what you need!",
+    title: "Building Your Community",
+    text: "Start with a solid foundation. At AdiMediaX, we help you create your community from the ground up. We provide the tools and strategies to launch private spaces where your audience can connect, share, and thrive. With expertly crafted content and a welcoming atmosphere, we ensure your community feels valued and engaged from day one. Our approach is tailored to your unique needs, laying the groundwork for long-term success and growth.",
     backgroundUrl: `${benefitCard1}`,
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Growth Systems",
-    text: "Grow your audience and create a high value monetization funnel using Content and Ads. Proven Content Structure + Personalization gives you amazing results using our Content Systems, Shoutout Systems and Meta, LinkedIn and YouTube Ad Expert Systems.",
+    title: "Growing Your Community",
+    text: "Expand your reach with purpose. Once your community is established, we implement targeted strategies to attract new members. Through data-driven marketing and effective outreach, we enhance visibility and encourage participation. Our growth systems turn casual visitors into loyal members, ensuring that your community continues to evolve and flourish. With each new member, your community gains strength, driving engagement and creating a vibrant ecosystem for shared learning and success.",
     backgroundUrl: `${benefitCard3}`,
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -612,8 +612,8 @@ export const benefits3 = [
   },
   {
     id: "2",
-    title: "Community systems",
-    text: "Build a strong revenue stream using private communities, generating over $100,000/month in recurring revenue. Strengthen your personal brand and improve student acquisition by creating a space for engagement and connection, supported by high-quality content and strategic growth systems.",
+    title: "Engaging Your Community",
+    text: "Keep the momentum alive with strategic engagement. We don’t just foster connections; we carefully craft content within your community that subtly guides members toward higher-ticket offers. Through engaging discussions, valuable resources, and well-placed CTAs, we create an environment where members naturally progress from low-ticket offers to premium setups. Our approach ensures that while your community remains vibrant and active, it also becomes a powerful tool for driving higher revenue opportunities.",
     backgroundUrl:`${benefitCard5}`,
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
