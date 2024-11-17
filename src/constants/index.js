@@ -509,6 +509,54 @@ export const pricing3 = [
 "24x7 Slack Support"
     ]
   },
+  {
+    id: "3",
+    title: "Awareness Builder",
+    description: "Increase community visibility and bring in new members by focusing on high-quality content and social media reach.",
+    price: null ,
+    features: [
+      "30+ Pieces of Social Media Content per Month",
+"Unlimited Story Content",
+"Repurposed Content",
+"Custom Branded Content",
+"Copywriting Services",
+"Social Media Management",
+"Reporting and Analytics",
+"24x7 Slack Support"
+    ]
+  },
+  {
+    id: "4",
+    title: "Funnel Builder",
+    description: "Building and executing proven content funnels to nurture new community members and convert passive followers into active members.",
+    price: null ,
+    features: [
+      "30+ Pieces of Content per Month",
+      "Video Sales Letter (VSL) + Video Ads",
+      "AI Content Sales System",
+      "Growth System (Content and Ads)",
+      "Copywriting Services",
+      "Social Media Management",
+      "Reporting & Analytics",
+      "24x7 Slack Support",
+    ]
+  },
+  {
+    id: "5",
+    title: "Advanced Funnel Builder",
+    description: "Build a customised funnel with advanced strategies to convert low-ticket members into high-ticket clients($2000+), maximising engagement and revenue.",
+    price: null ,
+    features: [
+      "45 Pieces of Content per Month",
+      "Customised Content Funnels",
+      "Customised Growth and Ad Systems",
+      "Customised Community Content",
+      "Low-Ticket to High-Ticket Monetization Funnel",
+      "Social Media Management",
+      "Reporting & Analytics",
+      "24x7 Slack Support",
+    ]
+  },
 ];
 
 
