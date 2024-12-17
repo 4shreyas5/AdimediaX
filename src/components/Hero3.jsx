@@ -55,7 +55,7 @@ const Hero3 = () => {
   </div>
 </div>
           
-          <Button href="https://pst5lh0z7n3.typeform.com/to/TnxoSGYk" className="mt-6">
+          <Button href="https://forms.zohopublic.in/adityaadim1/form/AdimediaXCommunityBlueprint/formperma/igGdnJfWn-jZNFrxJvIYMq35-adYa_gM6zG7erBNb8s" className="mt-6">
           Get Your Free Personalized Community Blueprint
           </Button>
           
